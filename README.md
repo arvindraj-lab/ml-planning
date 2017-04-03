@@ -2,6 +2,12 @@
 
 Repository used by the Watson Machine Learning team for tracking & planning
 
+# Roadmap and Requirements
+The Machine Learning roadmap is defined on an Aha board and synchronised with a Machine Learning requirements Zenhub board both of which are maintained by Offering Management.
+
+[Aha Roadmap] (https://bigblue.aha.io/products/ML/feature_cards)
+[Machine Learning Requirements] (https://github.ibm.com/dap/WML-requirements#boards?repos=138899)
+
 # Pre-req
 Please install the Zen-hub plug in required to view our Kanban boards and other features.  Download the plug in for either Chrome or Firefox [here](https://zenhub.innovate.ibm.com/setup/download)
 
