@@ -15,14 +15,24 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 
 # Team Squads
 
-| Squad Name | Squad Scope | Squad Leader |
-| -------- | ---------- | ------------- |
-| Pipeline | Provide the integrated ML experience for model development and training including HPO,Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu (SCRUM Master)|
-| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Barbara (SCRUM Master) |
-| Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Barbara (SCRUM Master)|
-| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Vinod (SCRUM Master)|
-| Ingest and Transform | Provides infrastructure for ingesting into the platform pipelines and into spark. This is the part where WDP executes data profiling and type inference as well as any preprocessing that help data cleansing for DS and ML experience | Janakiraman Krishnamurthy (SCRUM Master)|
-| Microservices (Common) | Provide the microservice infrastructure using AKKA framework on top of programatic experience and libraries. These are integrated into Canvas and other entry points providing a seamless experience for all usecases. Common Services include capabilities for Scheduling, Repo, Token Service, Security, Framework etc | Janakiraman Krishnamurthy (SCRUM Master)|
-| Programmatic Bindings | All the functionality in the platform can also be used from within notebooks. majority of the functional libraries like sparkilng data pipelines etc. have default SCALA bindings. This team is extending the Scala bindings to other programming languages; primarily Python and R | Janakiraman Krishnamurthy (SCRUM Master)|
-| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson (SCRUM Master)| 
-| Canvas |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver (SCRUM Master)|
+| Squad Name | Squad Scope | Squad Leader | Reporting |
+| -------- | ---------- | ------------- | -------- |
+| Training | Provide the integrated ML experience for model development and training including HPO,Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | Anthony Casaletto |
+| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Barbara Kowalczyk | Anthony Casaletto |
+| Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | Anthony Casaletto |
+| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | Vinod Khader |
+| Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | Vinod Khader |
+| Continuous Integration | Continuous Integration, Automation, Performance | Shashank Vagarali| Vinod Khader |
+| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson | Anthony Casaletto |
+| Canvas |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | Anthony Casaletto |
+| Deep Learning | Deep Learning as a Service | Florian Rosenberg | Rania Khalaf |
+
+# Guilds
+
+| Guild Name | Scope | Leader | Reporting | Members |
+| -------- | ---------- | ------------- | -------- | -------- |
+| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Gopi Varadarajulu, Rafal Bigaj, Florian Rosenberg, Robert Duncan |
+| Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Lukasz Cmielowski, Andrew Thompson |
+| Metrics | Drive Metric collection and reporting | Rafal Bigaj | Vinod Khader | Rafal Bigaj, Shashank Vagarali, Andrew Thompson |
+| QA | Drive Test strategy across WML | Lukasz Cmielowski | Anthony Casaletto | Lukasz Cmielowski, Andrew Thompson, Diana Tesedean, Rayanki  |
+| Operations | Drive Operations strategy across WML | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
