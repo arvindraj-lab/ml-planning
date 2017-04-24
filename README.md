@@ -22,17 +22,20 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | Anthony Casaletto |
 | Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | Vinod Khader |
 | Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | Vinod Khader |
-| Continuous Integration | Continuous Integration, Automation, Performance | Shashank Vagarali| Vinod Khader |
+| Continuous Integration | Continuous Integration, Automation | Shashank Vagarali| Vinod Khader |
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson | Anthony Casaletto |
 | Canvas |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | Anthony Casaletto |
 | Deep Learning | Deep Learning as a Service | Florian Rosenberg | Rania Khalaf |
 
 # Guilds
 
+A Guild is a group of people that form a community of interest across the full organization to share knowledge, tools, code, and practices.
+
 | Guild Name | Scope | Leader | Reporting | Members |
 | -------- | ---------- | ------------- | -------- | -------- |
-| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Gopi Varadarajulu, Rafal Bigaj, Florian Rosenberg, Robert Duncan |
+| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Gopi Varadarajulu, Rafal Bigaj, Florian Rosenberg, Robert Duncan, Donald Pierucci |
 | Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Lukasz Cmielowski, Andrew Thompson |
 | Metrics | Drive Metric collection and reporting | Rafal Bigaj | Vinod Khader | Rafal Bigaj, Shashank Vagarali, Andrew Thompson |
-| QA | Drive Test strategy across WML | Lukasz Cmielowski | Anthony Casaletto | Lukasz Cmielowski, Andrew Thompson, Diana Tesedean, Rayanki  |
-| Operations | Drive Operations strategy across WML | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
+| QA | Drive Test strategy across WML | Lukasz Cmielowski | Anthony Casaletto | Lukasz Cmielowski, Andrew Thompson, Diana Tesedean, Yugandhra Rayanki |
+| Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
+| Security | Security reviews and strategy across WML | Rafal Bigaj | Anthony Casaletto | Rafal Bigaj, Gopi Varadarajulu |
