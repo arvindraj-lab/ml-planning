@@ -18,7 +18,7 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Squad Name | Squad Scope | Squad Leader | Reporting |
 | -------- | ---------- | ------------- | -------- |
 | Training | Provide the integrated ML experience for model development and training including HPO,Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | Anthony Casaletto |
-| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Barbara Kowalczyk | Anthony Casaletto |
+| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Kamila Baron-Palucka | Anthony Casaletto |
 | Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | Anthony Casaletto |
 | Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | Vinod Khader |
 | Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | Vinod Khader |
