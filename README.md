@@ -41,3 +41,13 @@ A Guild is a group of people that form a community of interest across the full o
 | Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
 | Security | Security reviews and strategy across WML | Rafal Bigaj | Anthony Casaletto | Rafal Bigaj, Gopi Varadarajulu |
 | NFR | NFR reviews and strategy across WML | Gopi Varadarajulu | Vinod Khader | Gopi Varadarajulu |
+
+## Making guilds effective
+There are a set of principles that each guild needs to folow up.
+
+1. Guilds typically discuss in more depth technical aspects, of their domain, that are generally applicable to all squads. However guilds need to clearly forumulate the outcomes of that effort and make concrete proposals before implementing them. 
+
+2. Technical proposals of different guilds needs to be communicated to the Architecure guild. Use wml-architecture slack channel to make such communications.
+
+3. There is a need for cross-guild communication. For instance security guild may need something implemented but that may affect performance thus involving the performance and architecture guilds is recommended. 
+
