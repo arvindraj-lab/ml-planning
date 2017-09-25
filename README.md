@@ -35,7 +35,7 @@ A Guild is a group of people that form a community of interest across the full o
 | Guild Name | Scope | Leader | Reporting | Members |
 | -------- | ---------- | ------------- | -------- | -------- |
 | Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Gopi Varadarajulu, Rafal Bigaj, Vinod Muthusamy, Robert Duncan, Donald Pierucci |
-| Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Lukasz Cmielowski, Andrew Thompson | Niall McCarroll
+| Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Lukasz Cmielowski, Andrew Thompson | Niall McCarroll |
 | Metrics | Drive Metric collection and reporting | Rafal Bigaj | Vinod Khader | Rafal Bigaj, Shashank Vagarali, Andrew Thompson |
 | QA | Drive Test strategy across WML | Lukasz Cmielowski | Anthony Casaletto | Lukasz Cmielowski, Andrew Thompson, Diana Tesedean, Yugandhra Rayanki |
 | Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
