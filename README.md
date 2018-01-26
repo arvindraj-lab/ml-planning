@@ -25,8 +25,8 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | Vinod Khader |
 | Continuous Integration | Continuous Integration, Automation | Shashank Vagarali| Vinod Khader |
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson | Anthony Casaletto |
-| Canvas |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | Anthony Casaletto |
-| Deep Learning | Deep Learning as a Service | Vinod Muthusamy | Rania Khalaf |
+| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | Anthony Casaletto |
+| Deep Learning editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Rafal Bigaj | Anthony Casaletto |
 
 # Guilds
 
