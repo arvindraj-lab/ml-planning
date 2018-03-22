@@ -16,17 +16,17 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 
 # Team Squads
 
-| Squad Name | Squad Scope | Squad Leader | Reporting |
-| -------- | ---------- | ------------- | -------- |
-| Training | Provide the integrated ML experience for model development and training including HPO,Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | Anthony Casaletto |
-| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Kamila Baron-Palucka | Anthony Casaletto |
-| Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | Anthony Casaletto |
-| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | Vinod Khader |
-| Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | Vinod Khader |
-| Continuous Integration | Continuous Integration, Automation | Shashank Vagarali| Vinod Khader |
-| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson | Anthony Casaletto |
-| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | Anthony Casaletto |
-| Deep Learning editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Rafal Bigaj | Anthony Casaletto |
+| Squad Name | Squad Scope | Squad Leader |
+| -------- | ---------- | ------------- |
+| Training | Provide the integrated ML experience for model development and training including HPO,Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | 
+| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Kamila Baron-Palucka |
+| Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | 
+| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | 
+| Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | 
+| Continuous Integration | Continuous Integration, Automation | Shashank Vagarali| 
+| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson |
+| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | 
+| Deep Learning editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Rafal Bigaj | 
 
 # Guilds
 
