@@ -52,3 +52,13 @@ There are a set of principles that each guild needs to folow up.
 
 3. There is a need for cross-guild communication. For instance security guild may need something implemented but that may affect performance thus involving the performance and architecture guilds is recommended. 
 
+# WML clusters
+
+- FVT: wml-fvt.ml.test.cloud.ibm.com
+- DEV: wml-dev.ml.test.cloud.ibm.com
+- SVT: wml-svt.ml.test.cloud.ibm.com
+- PERF: wml-perf.ml.test.cloud.ibm.com
+- YS1-PROD: us-south.ml.test.cloud.ibm.com
+- LYS1-PROD: eu-gb.ml.test.cloud.ibm.com
+- YP-PROD: us-south.ml.cloud.ibm.com
+- LYP-PROD: eu-gb.ml.cloud.ibm.com
