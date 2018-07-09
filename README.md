@@ -71,6 +71,6 @@ There are a set of principles that each guild needs to folow up.
 - APIs in design that will eventually become public - http://watson-ml-design-api.mybluemix.net
 - APIs in desgin for private use only - http://watson-ml-design-api-private.mybluemix.net
 
-## APIs promotion path
-- desgin -> private - > public
-- design-private -> private
+### APIs promotion path
+- design-api -> private - > public
+- design-api-private -> private
