@@ -5,7 +5,7 @@ Repository used by the Watson Machine Learning team for tracking & planning
 # Roadmap and Requirements
 The Machine Learning roadmap is defined on an Aha board maintained by Offering Management.
 
-[Aha Roadmap](https://bigblue.aha.io/products/WSPHERE/feature_cards)
+[Aha Roadmap](https://bigblue.aha.io/products/ML/feature_cards)
 
 [Box Folder](https://ibm.ent.box.com/folder/21779425598)
 
