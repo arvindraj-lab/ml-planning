@@ -20,14 +20,22 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Squad Name | Squad Scope | Squad Leader |
 | -------- | ---------- | ------------- |
 | Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | 
-| Bluemix Service | Provide the BlueMix integration of WML pipelines for both scoring and training. Focusing on app developer persona and rapid integration int applications | Kamila Baron-Palucka |
-| Deployment | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Rafal Bigaj | 
-| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamil Narayanaswamy | 
-| Core services | Ingest Integration, Repo, Token, Libraries, Run time Integration (Scikit learn) | Janakiraman Krishnamurthy | 
-| Continuous Integration | Continuous Integration, Automation | Shashank Vagarali| 
+| Deployment | This service will provide capabilities to Deploy and Score models | Tamilselvan Narayanaswamy | 
+| Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Mithun Virajpet | 
+| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamilselvan Narayanaswamy | 
+| Repository | This service manages the APIs to save and load all ML artifacts including Models| Janakiraman Krishnamurthy | 
+| Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle | Janakiraman Krishnamurthy | 
+| Token | This service manages tokens that are used by users and all other services | Janakiraman Krishnamurthy | 
+| DevOps | Continuous Integration, Automation, Overall operation across Data Centers and Private cloud | Shashank Vagarali| 
+| Cloud Broker | Service broker for Cloud integration | Shashank Vagarali|
+| Events | This service manages all events and reporting metrics | Shashank Vagarali| 
+| Instances | This service manages WML instance operations on Cloud | Shashank Vagarali| 
+| Client library | Library to leverage WML capabilities from Notebooks | Shashank Vagarali| 
+| CLI | Command line interface for WML | Shashank Vagarali| 
+| Dlaas | Deep Learning Service that powers Training for DL frameworks | Oronde Tucker| 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson |
 | Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | 
-| Deep Learning editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Rafal Bigaj | 
+| Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Yawen Chien | 
 
 # Guilds
 
@@ -35,13 +43,13 @@ A Guild is a group of people that form a community of interest across the full o
 
 | Guild Name | Scope | Leader | Reporting | Members |
 | -------- | ---------- | ------------- | -------- | -------- |
-| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Gopi Varadarajulu, Rafal Bigaj, Vinod Muthusamy, Robert Duncan, Donald Pierucci |
-| Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Lukasz Cmielowski, Andrew Thompson, Niall McCarroll |
-| Metrics | Drive Metric collection and reporting | Rafal Bigaj | Vinod Khader | Rafal Bigaj, Shashank Vagarali, Andrew Thompson |
-| QA | Drive Test strategy across WML | Lukasz Cmielowski | Anthony Casaletto | Lukasz Cmielowski, Andrew Thompson, Diana Tesedean, Yugandhra Rayanki |
-| Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Daniel Ryszka, Mihai Sarto, Andrew Thompson  |
-| Security | Security reviews and strategy across WML | Rafal Bigaj | Anthony Casaletto | Rafal Bigaj, Gopi Varadarajulu |
-| NFR | NFR reviews and strategy across WML | Gopi Varadarajulu | Vinod Khader | Gopi Varadarajulu |
+| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Robert Duncan, Donald Pierucci |
+| Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Andrew Thompson |
+| Metrics | Drive Metric collection and reporting | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Andrew Thompson |
+| QA | Drive Test strategy across WML | Monica Romila | Remus Lazar | Monica Romila, Diana Tesedean, Elaine, Nikhil, Nareen |
+| Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Mihai Sarto, Andrew Thompson  |
+| Security | Security reviews and strategy across WML | TBD | Anthony Casaletto | TBD |
+| Compliance | Compliance execution across WML | Janakiraman Krishnamurthy | Vinod Khader | Janakiraman Krishnamurthy, Devops squad |
 
 ## Making guilds effective
 There are a set of principles that each guild needs to folow up.
