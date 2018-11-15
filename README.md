@@ -30,7 +30,7 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Cloud Broker | Service broker for Cloud integration | Shashank Vagarali|
 | Events | This service manages all events and reporting metrics | Shashank Vagarali| 
 | Instances | This service manages WML instance operations on Cloud | Shashank Vagarali| 
-| Client library | Library to leverage WML capabilities from Notebooks | Shashank Vagarali| 
+| Client library | Python Library to leverage WML capabilities from Notebooks | Shashank Vagarali| 
 | CLI | Command line interface for WML | Shashank Vagarali| 
 | Dlaas | Deep Learning Service that powers Training for DL frameworks | Oronde Tucker| 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson |
@@ -47,7 +47,7 @@ A Guild is a group of people that form a community of interest across the full o
 | Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Andrew Thompson |
 | Metrics | Drive Metric collection and reporting | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Andrew Thompson |
 | QA | Drive Test strategy across WML | Monica Romila | Remus Lazar | Monica Romila, Diana Tesedean, Elaine, Nikhil, Nareen |
-| Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Mihai Sarto, Andrew Thompson  |
+| Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Prabhu S Padashetty, Estee J Mathew, Jins M Alex, Hemant K Singh, Mihai Sarto, Andrew Thompson  |
 | Security | Security reviews and strategy across WML | TBD | Anthony Casaletto | TBD |
 | Compliance | Compliance execution across WML | Janakiraman Krishnamurthy | Vinod Khader | Janakiraman Krishnamurthy, Devops squad |
 
