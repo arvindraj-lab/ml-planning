@@ -9,8 +9,6 @@ The Machine Learning roadmap is defined on an Aha board maintained by Offering M
 
 [Box Folder](https://ibm.ent.box.com/folder/21779425598)
 
-# Milestone Epic Views
-[AI Sphere July](https://github.ibm.com/NGP-TWC/ml-planning#boards?labels=ai%20sphere,july2018,epic&repos=84379)
 
 # Pre-req
 Please install the Zen-hub plug in required to view our Kanban boards and other features.  Download the plug in for either Chrome or Firefox [here](https://zenhub.innovate.ibm.com/setup/download)
@@ -32,9 +30,9 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Instances | This service manages WML instance operations on Cloud | Shashank Vagarali| 
 | Client library | Python Library to leverage WML capabilities from Notebooks | Shashank Vagarali| 
 | CLI | Command line interface for WML | Shashank Vagarali| 
-| Dlaas | Deep Learning Service that powers Training for DL frameworks | Oronde Tucker| 
+| DL | Deep Learning Service that powers Training for DL frameworks | Oronde Tucker| 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML | Todd Peterson |
-| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Dominika Oliver | 
+| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models | Darren Sullivan | 
 | Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service | Yawen Chien | 
 
 # Guilds
