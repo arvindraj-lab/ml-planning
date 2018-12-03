@@ -18,8 +18,7 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Squad Name | Squad Scope | Mgmt Contact | Squad Lead & Members |
 | ---------- | ----------- | ------------ | -------------------- |
 | Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu/Romania/IBM | Lucian Cioranu/Romania/IBM (Lead), Calin Cocan/Romania/IBM, Mihai Sarto/Romania/IBM |
-| Deployment & Scoring | This service will provide capabilities to Deploy and Score models | Vinod Khader/India/IBM | Tamilselvan Narayanaswamy (Lead)
-AAA | 
+| Deployment & Scoring | This service will provide capabilities to Deploy and Score models | Vinod Khader/India/IBM | Tamilselvan Narayanaswamy (Lead) \'\n\' AAA | 
 | Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Mithun Virajpet | 
 | Repository | This service manages the APIs to save and load all ML artifacts including Models | | Janakiraman Krishnamurthy | 
 | Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle  | | Janakiraman Krishnamurthy | 
