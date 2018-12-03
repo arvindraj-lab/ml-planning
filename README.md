@@ -17,19 +17,18 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 
 | Squad Name | Squad Scope | Mgmt Contact | Squad Members |
 | ---------- | ----------- | ------------ | -------------------- |
-| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | Lucian Cioranu (Lead), Calin Cocan, Mihai Sarto |
-| Deployment & Scoring (Core, Spark, SPSS, PMML & Streaming) | This squad develop the core framework and capabilities to Deploy and Score models in Online and Batch modes. This squad also handle the support for runtimes like Spark, PMML, SPSS apart from the Streaming service | Vinod Khader | Tamilselvan Narayanaswamy (Lead), Dinoop Thomas, Venkateshwara S Goutham, Rajyalakshmi Nandireddy, Srijak Bhaumik1, Niveditha Rabakavi, Kavya J Rao | 
-| Deployment & Scoring (Python Runtimes) | This squad develop capabilities to Deploy and Score models in Online and Batch modes for all Python runtimes. This includes frameworks like ScikitLearn, XGBoost, Tensorflow, Keras, Caffe and upcoming PyTorch | Vinod Khader | Krishnamurthy Arthanarisamy (Lead), Srikrishna S Bhat, Ginbiaksang Naulak | 
-| Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Janakiraman Krishnamurthy | Mithun B Virajpet (Lead), TBD
-| Repository | This service manages the APIs to save and load all ML artifacts including Models | Janakiraman Krishnamurthy | Roopa Mahendra (Lead), Mahadev Khapali, Sobha Rani Cheruku, Kamini Gupta, Kayalvizhi Ganesan |
+| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | **Lucian Cioranu (Lead)**, Calin Cocan, Mihai Sarto |
+| Deployment & Scoring | This squad develop the core framework and capabilities to Deploy and Score models in Online and Batch modes. This squad also handle the support for runtimes like Spark, PMML, SPSS apart from the Streaming service. A sub squad also handle python frameworks like ScikitLearn, XGBoost, Tensorflow, Keras, Caffe and upcoming PyTorch  | Vinod Khader | **Tamilselvan Narayanaswamy (Lead)**, Dinoop Thomas, Venkateshwara S Goutham, Rajyalakshmi Nandireddy, Srijak Bhaumik1, Niveditha Rabakavi, Kavya J Rao,  **Krishnamurthy Arthanarisamy (Python RT Lead)**, Srikrishna S Bhat, Ginbiaksang Naulak  | 
+| Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Janakiraman Krishnamurthy | **Mithun B Virajpet (Lead)**, TBD
+| Repository | This service manages the APIs to save and load all ML artifacts including Models | Janakiraman Krishnamurthy | **Roopa Mahendra (Lead)**, Mahadev Khapali, Sobha Rani Cheruku, Kamini Gupta, Kayalvizhi Ganesan |
 | Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle  | Janakiraman Krishnamurthy | Yugandhra Rayanki/India/IBM |
 | Token | This service manages tokens that are used by users and all other services  | Janakiraman Krishnamurthy | Kayalvizhi Ganesan
-| DevOps | Continuous Integration, Automation, Overall operation across Data Centers and Private cloud  | Janakiraman Krishnamurthy | Shashank Vagarali (Lead), Prabhu S Padashetty, Estee J Mathew, Jins M Alex, Hemant K Singh | 
-| Cloud Broker | Service broker for Cloud integration  | Vinod Khader | Shashank Vagarali, Hemant K Singh| 
-| Events | This service manages all events and reporting metrics  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
-| Instances | This service manages WML instance operations on Cloud  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
-| Client library | Python Library to leverage WML capabilities from Notebooks  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
-| CLI | Command line interface for WML | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy | 
+| DevOps | Continuous Integration, Automation, Overall operation across Data Centers and Private cloud  | Janakiraman Krishnamurthy | **Shashank Vagarali (Lead)**, Prabhu S Padashetty, Estee J Mathew, Jins M Alex, Hemant K Singh | 
+| Cloud Broker | Service broker for Cloud integration  | Vinod Khader | **Shashank Vagarali**, Hemant K Singh| 
+| Events | This service manages all events and reporting metrics  | Vinod Khader | **Shashank Vagarali (Lead)**, Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| Instances | This service manages WML instance operations on Cloud  | Vinod Khader | **Shashank Vagarali (Lead)**, Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| Client library | Python Library to leverage WML capabilities from Notebooks  | Vinod Khader | **Shashank Vagarali (Lead)**, Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| CLI | Command line interface for WML | Vinod Khader | **Shashank Vagarali (Lead)**, Hanisha Nagireddy | 
 | DL | Deep Learning Service that powers Training for DL frameworks  | Oronde Tucker | | 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML  | Todd Peterson | |
 | Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models  | Darren Sullivan |  |
