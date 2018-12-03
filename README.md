@@ -15,12 +15,11 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 
 # Team Squads
 
-| Squad Name | Squad Scope | Squad Leader |
+| Squad Name | Squad Scope | Mgmt Contact | Squad Lead & Members |
 | -------- | ---------- | ------------- |
-| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | 
-| Deployment | This service will provide capabilities to Deploy and Score models | Tamilselvan Narayanaswamy | 
+| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu/Romania/IBM (Lead), Calin Cocan/Romania/IBM, Mihai Sarto/Romania/IBM
+| Deployment & Scoring | This service will provide capabilities to Deploy and Score models | Tamilselvan Narayanaswamy | 
 | Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Mithun Virajpet | 
-| Scoring | Provides end point capabilities to score ML artifacts in Batch, Streaming and Online modes. | Tamilselvan Narayanaswamy | 
 | Repository | This service manages the APIs to save and load all ML artifacts including Models| Janakiraman Krishnamurthy | 
 | Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle | Janakiraman Krishnamurthy | 
 | Token | This service manages tokens that are used by users and all other services | Janakiraman Krishnamurthy | 
