@@ -15,24 +15,24 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 
 # Squads
 
-| Squad Name | Squad Scope | Mgmt Contact | Squad Lead & Members |
+| Squad Name | Squad Scope | Mgmt Contact | Squad Members |
 | ---------- | ----------- | ------------ | -------------------- |
-| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu/Romania/IBM | Lucian Cioranu/Romania/IBM (Lead), Calin Cocan/Romania/IBM, Mihai Sarto/Romania/IBM |
-| Deployment & Scoring | This service will provide capabilities to Deploy and Score models | Vinod Khader/India/IBM | Tamilselvan Narayanaswamy (Lead) \'\n\' AAA | 
-| Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Mithun Virajpet | 
-| Repository | This service manages the APIs to save and load all ML artifacts including Models | | Janakiraman Krishnamurthy | 
-| Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle  | | Janakiraman Krishnamurthy | 
-| Token | This service manages tokens that are used by users and all other services  | | Janakiraman Krishnamurthy | 
-| DevOps | Continuous Integration, Automation, Overall operation across Data Centers and Private cloud  | | Shashank Vagarali| 
-| Cloud Broker | Service broker for Cloud integration  | Vinod Khader/India/IBM | Shashank Vagarali|
-| Events | This service manages all events and reporting metrics  | Vinod Khader/India/IBM | Shashank Vagarali| 
-| Instances | This service manages WML instance operations on Cloud  | Vinod Khader/India/IBM | Shashank Vagarali| 
-| Client library | Python Library to leverage WML capabilities from Notebooks  | Vinod Khader/India/IBM | Shashank Vagarali| 
-| CLI | Command line interface for WML | Vinod Khader/India/IBM | Shashank Vagarali| 
-| DL | Deep Learning Service that powers Training for DL frameworks  | | Oronde Tucker| 
-| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML  | | Todd Peterson |
-| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models  | | Darren Sullivan | 
-| Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service  | | Yawen Chien | 
+| Training | Provide the integrated ML experience for model development and training including HPO, Cross Validation, Experiments, data split, auto feature engineering CADS (auto modeling). Functionality delivered in Spark and additional pipelines like scikit learn/conda and streams | Lucian Cioranu | Lucian Cioranu (Lead), Calin Cocan, Mihai Sarto |
+| Deployment & Scoring | This service will provide capabilities to Deploy and Score models | Vinod Khader | Tamilselvan Narayanaswamy (Lead), Dinoop Thomas, Venkateshwara S Goutham, Rajyalakshmi Nandireddy, Srijak Bhaumik1, Niveditha Rabakavi, Kavya J Rao | 
+| Learning-Systems | This service will provide capabilities including Retraining the Model and Monitoring the model performance leading to continuous Model feedback | Mithun Virajpet | No Developers at this point
+| Repository | This service manages the APIs to save and load all ML artifacts including Models | Janakiraman Krishnamurthy | Roopa Mahendra (Lead), Mahadev Khapali, Sobha Rani Cheruku, Kamini Gupta, Kayalvizhi Ganesan |
+| Ingest | This service handles the Connectors and Data ingest capabilities during Training cycle  | Janakiraman Krishnamurthy | Yugandhra Rayanki/India/IBM |
+| Token | This service manages tokens that are used by users and all other services  | Janakiraman Krishnamurthy | Kayalvizhi Ganesan
+| DevOps | Continuous Integration, Automation, Overall operation across Data Centers and Private cloud  | Janakiraman Krishnamurthy | Shashank Vagarali (Lead), Prabhu S Padashetty, Estee J Mathew, Jins M Alex, Hemant K Singh | 
+| Cloud Broker | Service broker for Cloud integration  | Vinod Khader | Shashank Vagarali, Hemant K Singh| 
+| Events | This service manages all events and reporting metrics  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| Instances | This service manages WML instance operations on Cloud  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| Client library | Python Library to leverage WML capabilities from Notebooks  | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy, Sahana Ha Anantharajaiah | 
+| CLI | Command line interface for WML | Vinod Khader | Shashank Vagarali (Lead), Hanisha Nagireddy | 
+| DL | Deep Learning Service that powers Training for DL frameworks  | Oronde Tucker | | 
+| Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML  | Todd Peterson | |
+| Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models  | Darren Sullivan |  |
+| Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service  | Yawen Chien |  |
 
 # Guilds
 
