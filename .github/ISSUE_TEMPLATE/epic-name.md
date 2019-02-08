@@ -11,14 +11,16 @@ about: "<Add epic description>"
 <Owner name : @owner>
 
 ## AHA board
-<Link to the AHA board>
+
+<AHA board epic link>
 
 ## WML squads
 <Add squads involved in the epic and the owner for the feature  on each squad>
-- Training: @training owner
-- Repository: @repository owner
-..........
-- SVT: @svt owner
+
+- **Training**: @training owner
+- **Repository**: @repository owner
+- **SVT**: @svt owner
+- etc
 
 ## Stakeholders
 <List containing some other interested parties (OM, Release manager, Project manager, etc)>
