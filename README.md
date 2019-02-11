@@ -70,11 +70,11 @@ There are a set of principles that each guild needs to folow up.
 
 
 # Swagger pages
-- Implemented public v3 API - http://watson-ml-v3-api.mybluemix.net
-- Implemented private v3 API - http://watson-ml-v3-api-private.mybluemix.net
-- Implemented private v2 API - http://watson-ml-v2-api-private.mybluemix.net
-- APIs in design that will eventually become public - http://watson-ml-design-api.mybluemix.net
-- APIs in desgin for private use only - http://watson-ml-design-api-private.mybluemix.net
+- Public apis: http://watson-ml-api.mybluemix.net
+- Current draft of v4 public apis: http://watson-ml-v4-api.mybluemix.net
+- Current draft of v4 private apis: http://watson-ml-v4-api-private.mybluemix.net
+- Private v3 API - http://watson-ml-v3-api-private.mybluemix.net
+- Private v2 API - http://watson-ml-v2-api-private.mybluemix.net
 
 ### APIs promotion path
 - design-api -> private - > public
