@@ -7,6 +7,8 @@ The Machine Learning roadmap is defined on an Aha board maintained by Offering M
 
 [Aha Roadmap](https://bigblue.aha.io/products/ML/feature_cards)
 
+[Aha Epics on Planning board](https://github.ibm.com/NGP-TWC/ml-planning/issues/6417#workspaces/582b95f47d2715684be61191/boards?labels=aha!%3Ain%20development,aha!%3Anew,aha!%3Aready%20for%20development,aha!%3Aunder%20consideration,aha!ready%20for%20design&filterLogic=any&useDefaultFilterLogic=false&repos=84379)
+
 [Box Folder](https://ibm.ent.box.com/folder/21779425598)
 
 
