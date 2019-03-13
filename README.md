@@ -82,7 +82,7 @@ There are a set of principles that each guild needs to folow up.
 - design-api -> private - > public
 - design-api-private -> private
 
-### Important Slack channels
+# Important Slack channels
 - #wml-dev - For all development queries
 - #wml-pd-ops - For all Production issues and outages
 - #wml-user - For all WML users to raise questions, issues etc
