@@ -81,3 +81,9 @@ There are a set of principles that each guild needs to folow up.
 ### APIs promotion path
 - design-api -> private - > public
 - design-api-private -> private
+
+### Important Slack channels
+- #wml-dev - For all development queries
+- #wml-pd-ops - For all Production issues and outages
+- #wml-user - For all WML users to raise questions, issues etc
+- #wml-on-icp - For discussions on WML on ICP4D
