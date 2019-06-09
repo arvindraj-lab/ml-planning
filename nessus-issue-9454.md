@@ -8,7 +8,7 @@ This issue was generated automatically by the SOS-GHE Nessus Automation.  Please
 **Plugin Risk:** Medium  
 **Plugin CVE:** n/a  
 **Family :** General  
-**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=5103134  
+**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=5163320  
 **SOS Risk Exception:** Yes  
 **SOS Risk Number:** [There is no Risk Number INFO.](https://w3-01.ibm.com/finance/controls/wwbcit/riskEdit.wss?riskId=There is no Risk Number INFO.)  
 **SOS Risk Expiration Date:** 5/31/2019    
@@ -33,6 +33,20 @@ Purchase or generate a proper certificate for this service.
 ## Vulnerable Hosts:
 | Host | IP [Type] | Port | Discovered | Due Date | Remediated |  
 | --- | --- | :---: | --- | --- | --- |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32106 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32006 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31051 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31018 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31013 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31010 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31009 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31008 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31007 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31005 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31004 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31003 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31002 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31001 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w1 _[v2]_ | 169.62.138.69 [frontend] | 32106 | 5/27/2019 | 5/31/2019 | 6/8/2019 |  
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w1 _[v2]_ | 169.62.138.69 [frontend] | 32031 | 5/27/2019 | 5/31/2019 | 6/8/2019 |  
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w1 _[v2]_ | 169.62.138.69 [frontend] | 32019 | 5/27/2019 | 5/31/2019 | 6/8/2019 |  
@@ -773,20 +787,6 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32027 | 4/15/2019 | 5/31/2019 |  |  
 | kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 | 169.62.138.68 [frontend] | 32072 | 6/3/2019 | 5/31/2019 |  |  
 | kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 | 169.62.138.67 [frontend] | 32072 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31001 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31007 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31009 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31008 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31003 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31002 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31005 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31004 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31010 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31051 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31018 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32106 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31013 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32006 | 6/3/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 | 169.48.194.115 [frontend] | 31013 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32064 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32063 | 6/2/2019 | 5/31/2019 |  |  
@@ -929,7 +929,7 @@ Purchase or generate a proper certificate for this service.
 
 
 ---  
-_Last Modified: Sat Jun 08 2019 07:49:05 GMT+0000_  
+_Last Modified: Sun Jun 09 2019 07:57:45 GMT+0000_  
 _Tracker Issue: 5cf0d1f840bffe0018abdb5a_  
 _cCode: armada_  
 _appId: pm-20_
