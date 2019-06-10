@@ -8,7 +8,7 @@ This issue was generated automatically by the SOS-GHE Nessus Automation.  Please
 **Plugin Risk:** Medium  
 **Plugin CVE:** n/a  
 **Family :** General  
-**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=5163320  
+**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=4552562  
 **SOS Risk Exception:** Yes  
 **SOS Risk Number:** [There is no Risk Number INFO.](https://w3-01.ibm.com/finance/controls/wwbcit/riskEdit.wss?riskId=There is no Risk Number INFO.)  
 **SOS Risk Expiration Date:** 5/31/2019    
@@ -33,6 +33,50 @@ Purchase or generate a proper certificate for this service.
 ## Vulnerable Hosts:
 | Host | IP [Type] | Port | Discovered | Due Date | Remediated |  
 | --- | --- | :---: | --- | --- | --- |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32106 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32105 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32031 | 3/12/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32019 | 4/1/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32018 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32016 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32006 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31051 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31018 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31013 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31010 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31007 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31004 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31003 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31001 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 30730 | 2/19/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32106 | 1/21/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 | 169.62.138.68 [frontend] | 32072 | 6/3/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v2]_ | 169.62.138.68 [frontend] | 32059 | 2/11/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v3]_ | 169.62.138.68 [frontend] | 32034 | 2/4/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32019 | 12/31/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32016 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 32006 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v2]_ | 169.62.138.68 [frontend] | 31018 | 3/11/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31009 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31005 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31002 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32106 | 1/21/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 | 169.62.138.67 [frontend] | 32072 | 6/3/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v2]_ | 169.62.138.67 [frontend] | 32059 | 2/11/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v3]_ | 169.62.138.67 [frontend] | 32034 | 2/4/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32019 | 12/31/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32016 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 32006 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v2]_ | 169.62.138.67 [frontend] | 31018 | 3/11/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31009 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31005 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31002 | 12/17/2018 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 32106 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 32006 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31018 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31009 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31005 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
+| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31002 | 5/27/2019 | 5/31/2019 | 6/10/2019 |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32106 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 32006 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w41 | 169.63.7.122 [frontend] | 31051 | 6/3/2019 | 5/31/2019 | 6/9/2019 |  
@@ -785,8 +829,6 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32033 | 4/15/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 31013 | 4/15/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32027 | 4/15/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 | 169.62.138.68 [frontend] | 32072 | 6/3/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 | 169.62.138.67 [frontend] | 32072 | 6/3/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 | 169.48.194.115 [frontend] | 31013 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32064 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32063 | 6/2/2019 | 5/31/2019 |  |  
@@ -798,9 +840,6 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32071 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32033 | 6/2/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32072 | 6/2/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32018 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31013 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32105 | 5/27/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v2]_ | 169.48.194.115 [frontend] | 31004 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v2]_ | 169.48.194.115 [frontend] | 31010 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v4]_ | 169.48.194.115 [frontend] | 31002 | 12/16/2018 | 5/31/2019 |  |  
@@ -810,8 +849,6 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v4]_ | 169.48.194.115 [frontend] | 31009 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v2]_ | 169.48.194.115 [frontend] | 31007 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v2]_ | 169.48.194.115 [frontend] | 31001 | 12/16/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32019 | 12/31/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32019 | 12/31/2018 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v3]_ | 169.48.194.123 [frontend] | 32016 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v2]_ | 169.48.194.123 [frontend] | 31051 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v3]_ | 169.48.194.123 [frontend] | 32026 | 12/16/2018 | 5/31/2019 |  |  
@@ -871,20 +908,6 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w14 _[v2]_ | 169.48.194.119 [frontend] | 31051 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w14 _[v2]_ | 169.48.194.119 [frontend] | 31010 | 12/16/2018 | 5/31/2019 |  |  
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w14 _[v4]_ | 169.48.194.119 [frontend] | 32006 | 12/16/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31005 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 32006 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32016 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32016 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31009 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31005 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 31002 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31009 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v5]_ | 169.62.138.67 [frontend] | 32006 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v5]_ | 169.62.138.68 [frontend] | 31002 | 12/17/2018 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v3]_ | 169.62.138.67 [frontend] | 32034 | 2/4/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v3]_ | 169.62.138.68 [frontend] | 32034 | 2/4/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v4]_ | 169.62.138.67 [frontend] | 32106 | 1/21/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v4]_ | 169.62.138.68 [frontend] | 32106 | 1/21/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 _[v3]_ | 169.48.194.115 [frontend] | 32106 | 1/21/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v3]_ | 169.48.194.123 [frontend] | 32106 | 1/21/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 _[v3]_ | 169.48.194.120 [frontend] | 32106 | 1/21/2019 | 5/31/2019 |  |  
@@ -893,43 +916,20 @@ Purchase or generate a proper certificate for this service.
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v3]_ | 169.48.194.123 [frontend] | 32017 | 1/28/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 _[v2]_ | 169.48.194.120 [frontend] | 32034 | 2/4/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v2]_ | 169.48.194.123 [frontend] | 32034 | 2/4/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31018 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 32106 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 32006 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31009 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31005 | 5/27/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0403cd2fa0864275862b5cfa101c8e0b-w18 _[v2]_ | 169.62.138.66 [frontend] | 31002 | 5/27/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32054 | 2/11/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32059 | 2/11/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 32017 | 2/11/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32054 | 2/11/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 32059 | 2/11/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v2]_ | 169.62.138.67 [frontend] | 32059 | 2/11/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v2]_ | 169.62.138.68 [frontend] | 32059 | 2/11/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32006 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31001 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31007 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31003 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 30730 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31004 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32016 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31010 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31051 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 31018 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32106 | 2/19/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 _[v2]_ | 169.62.138.68 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w2 _[v2]_ | 169.62.138.67 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 | 169.48.194.118 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 | 169.48.194.115 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32031 | 3/12/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w8 | 169.48.194.120 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w14 | 169.48.194.119 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 | 169.63.7.119 [frontend] | 32019 | 4/1/2019 | 5/31/2019 |  |      
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 | 169.48.194.123 [frontend] | 31018 | 3/11/2019 | 5/31/2019 |  |      
 
 
 ---  
-_Last Modified: Sun Jun 09 2019 07:57:45 GMT+0000_  
+_Last Modified: Mon Jun 10 2019 07:47:01 GMT+0000_  
 _Tracker Issue: 5cf0d1f840bffe0018abdb5a_  
 _cCode: armada_  
 _appId: pm-20_
