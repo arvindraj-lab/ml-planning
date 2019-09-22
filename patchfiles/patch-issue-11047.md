@@ -11,11 +11,41 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19092118&id=19092118&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 3/18/2020    
+**SOS Risk Expiration Date:** 3/19/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w247 | 10.93.166.82 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w53 | 10.73.115.158 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w535 | 10.93.167.17 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w183 | 10.93.59.173 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w100 | 10.93.167.135 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w178 | 10.93.167.18 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w276 | 10.93.166.7 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w220 | 10.93.166.8 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w101 | 10.93.167.242 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w101 | 10.93.59.136 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w174 | 10.93.167.62 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w428 | 10.93.187.96 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w459 | 10.93.187.114 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w441 | 10.93.187.52 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w65 | 10.73.115.177 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w463 | 10.93.187.58 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w244 | 10.93.166.64 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w180 | 10.93.167.16 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w106 | 10.93.167.142 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w551 | 10.93.164.216 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w467 | 10.93.164.70 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w6 | 10.123.50.220 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra02-cr94bd193f10a747e29f5d401bdbb265b1-w12 | 10.85.112.110 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w40 | 10.75.67.156 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w53 | 10.75.67.137 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w8 | 10.75.63.26 | 9/20/2019 | 3/18/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w493 | 10.93.165.174 | 9/20/2019 | 3/18/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w66 | 10.93.167.229 | 9/20/2019 | 3/18/2020 |  |  
+| kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w51 | 10.75.67.185 | 9/20/2019 | 3/18/2020 |  |  
+| kube-tok04-cr00af2a4a8cae44029f26cc72e33cf74a-w22 | 10.192.8.62 | 9/20/2019 | 3/18/2020 |  |  
 | kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w38 | 10.75.67.136 | 9/20/2019 | 3/18/2020 |  |  
 | kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w54 | 10.123.38.217 | 9/20/2019 | 3/18/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w453 | 10.93.187.162 | 9/20/2019 | 3/18/2020 |  |  
@@ -757,7 +787,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sat Sep 21 2019 08:03:54 GMT+0000_  
+_Last Modified: Sun Sep 22 2019 10:45:26 GMT+0000_  
 _Tracker Issue: 5d85cbc8e5d145001136f0ef_  
 _cCode: armada_  
 _appId: pm-20_
