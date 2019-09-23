@@ -11,11 +11,22 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19092118&id=19092118&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 3/19/2020    
+**SOS Risk Expiration Date:** 3/20/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w52 | 10.73.115.165 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w48 | 10.73.115.200 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w58 | 10.73.115.230 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w550 | 10.93.166.208 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w60 | 10.73.115.234 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w454 | 10.93.187.236 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w66 | 10.73.115.157 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w226 | 10.93.166.57 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w77 | 10.73.115.227 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w269 | 10.93.166.49 | 9/21/2019 | 3/19/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w225 | 10.93.166.88 | 9/21/2019 | 3/19/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w247 | 10.93.166.82 | 9/21/2019 | 3/19/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w53 | 10.73.115.158 | 9/21/2019 | 3/19/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w535 | 10.93.167.17 | 9/21/2019 | 3/19/2020 |  |  
@@ -787,7 +798,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sun Sep 22 2019 10:45:26 GMT+0000_  
+_Last Modified: Mon Sep 23 2019 08:39:51 GMT+0000_  
 _Tracker Issue: 5d85cbc8e5d145001136f0ef_  
 _cCode: armada_  
 _appId: pm-20_
