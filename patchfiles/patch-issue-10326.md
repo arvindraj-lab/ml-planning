@@ -16,17 +16,17 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w90 _[v3]_ | 10.73.162.242 | 9/9/2019 | 3/7/2020 | 9/24/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w90 _[v2]_ | 10.73.162.242 | 9/9/2019 | 3/7/2020 | 9/20/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w90 | 10.73.162.242 | 9/9/2019 | 3/7/2020 | 9/16/2019 |  
-| kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w90 _[v3]_ | 10.73.162.242 | 9/9/2019 | 3/7/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w230 _[v3]_ | 10.73.162.238 | 9/9/2019 | 3/7/2020 | 9/23/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w230 _[v2]_ | 10.73.162.238 | 9/9/2019 | 3/7/2020 | 9/20/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w230 | 10.73.162.238 | 9/9/2019 | 3/7/2020 | 9/16/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w199 _[v3]_ | 10.73.162.252 | 9/9/2019 | 3/7/2020 | 9/23/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w199 _[v2]_ | 10.73.162.252 | 9/9/2019 | 3/7/2020 | 9/20/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w199 | 10.73.162.252 | 9/9/2019 | 3/7/2020 | 9/16/2019 |  
+| kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w149 _[v2]_ | 10.93.59.155 | 8/9/2019 | 2/5/2020 | 9/24/2019 |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w149 | 10.93.59.155 | 8/9/2019 | 2/5/2020 | 9/16/2019 |  
-| kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w149 _[v2]_ | 10.93.59.155 | 8/9/2019 | 2/5/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w325 _[v2]_ | 10.73.162.221 | 8/9/2019 | 2/5/2020 | 9/23/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w325 | 10.73.162.221 | 8/9/2019 | 2/5/2020 | 9/16/2019 |  
 | kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w9 _[v3]_ | 10.75.63.20 | 8/9/2019 | 2/5/2020 | 9/20/2019 |  
@@ -39,8 +39,8 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w94 _[v2]_ | 10.73.162.197 | 8/9/2019 | 2/5/2020 | 9/16/2019 |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w321 _[v3]_ | 10.94.122.234 | 8/9/2019 | 2/5/2020 | 9/22/2019 |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w321 _[v2]_ | 10.94.122.234 | 8/9/2019 | 2/5/2020 | 9/16/2019 |  
+| kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w220 _[v3]_ | 10.73.162.198 | 8/9/2019 | 2/5/2020 | 9/24/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w220 _[v2]_ | 10.73.162.198 | 8/9/2019 | 2/5/2020 | 9/16/2019 |  
-| kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w220 _[v3]_ | 10.73.162.198 | 8/9/2019 | 2/5/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w105 | 10.187.152.44 | 8/8/2019 | 2/4/2020 | 9/23/2019 |  
 | kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w52 | 10.123.50.211 | 8/8/2019 | 2/4/2020 | 9/20/2019 |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w70 _[v2]_ | 10.184.244.237 | 8/8/2019 | 2/4/2020 | 9/23/2019 |  
@@ -624,7 +624,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Mon Sep 23 2019 08:38:28 GMT+0000_  
+_Last Modified: Tue Sep 24 2019 10:30:23 GMT+0000_  
 _Tracker Issue: 5d4e6c49717c9500105ed718_  
 _cCode: armada_  
 _appId: pm-20_
