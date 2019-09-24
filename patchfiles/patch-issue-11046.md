@@ -6,16 +6,23 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 ## Details  
 **Fixlet Severity:** low  
 **Fixlet ID:** 19092052  
-**Fixlet Name:** Unspecified - Linux-Image-4.4.0-164-Generic - Ubuntu 16.04 (amd64)  
+**Fixlet Name:** Unspecified - Linux-Image-4.4.0-164-Generic - Ubuntu 16.04 (amd64) (Superseded)  
 **Fixlet Site Name:** Patches for Ubuntu 1604  
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19092052&id=19092052&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 3/20/2020    
+**SOS Risk Expiration Date:** 3/21/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w50 | 10.73.115.187 | 9/23/2019 | 3/21/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w268 | 10.93.166.28 | 9/23/2019 | 3/21/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w561 | 10.93.164.34 | 9/23/2019 | 3/21/2020 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w55 | 10.73.115.197 | 9/23/2019 | 3/21/2020 |  |  
+| kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w69 | 10.184.244.227 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w120 | 10.93.167.112 | 9/22/2019 | 3/20/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w560 | 10.93.164.46 | 9/22/2019 | 3/20/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w52 | 10.73.115.165 | 9/22/2019 | 3/20/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w48 | 10.73.115.200 | 9/22/2019 | 3/20/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w58 | 10.73.115.230 | 9/22/2019 | 3/20/2020 |  |  
@@ -280,6 +287,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w447 | 10.185.78.230 | 9/19/2019 | 3/17/2020 |  |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w123 | 10.184.244.238 | 9/19/2019 | 3/17/2020 |  |  
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w15 | 10.72.64.237 | 9/19/2019 | 3/17/2020 |  |  
+| kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w98 _[v2]_ | 10.93.59.190 | 9/19/2019 | 3/17/2020 |  |  
 | kube-dal10-cr24164dfe5c7842c98de431e53b6111d9-w57 | 10.176.86.151 | 9/19/2019 | 3/17/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w104 | 10.93.167.126 | 9/19/2019 | 3/17/2020 |  |  
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w5 | 10.72.64.244 | 9/19/2019 | 3/17/2020 |  |  
@@ -824,7 +832,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Mon Sep 23 2019 08:39:42 GMT+0000_  
+_Last Modified: Tue Sep 24 2019 10:33:17 GMT+0000_  
 _Tracker Issue: 5d85cbc3e5d145001136e50e_  
 _cCode: armada_  
 _appId: pm-20_
