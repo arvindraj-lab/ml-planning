@@ -9,11 +9,11 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 < Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z>
 
 ## Desired Target Deployment Date
-\<M>/\<DD>/\<YYYY>
+- < MM-DD-YYYY >
 
 ## Content 
 ### Image/Content(s) that changed
-- \<List of changed microservices (if any) \>
+- `<List of changed microservices (if any)>`
 
 ### Vulnerability Advisor Scan Results
 - <Listing of clean VA scan results for included images\>
