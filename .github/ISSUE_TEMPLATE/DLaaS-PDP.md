@@ -9,23 +9,23 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 < Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z>
 
 ## Desired Target Deployment Date
-\<M\>/\<DD\>/\<YYYY\>
+\<M>/\<DD>/\<YYYY>
 
 ## Content 
 ### Image/Content(s) that changed
 - \<List of changed microservices (if any) \>
 
 ### Vulnerability Advisor Scan Results
-- \<Listing of clean VA scan results for included images\>
+- <Listing of clean VA scan results for included images\>
 
 ### Build logs
 - < Genkins build logs>
 
 ### Test logs
-- Dev: \<Link to Report\>
-- Staging: \<Link to Report\>
-- WML-SMOKE SVT: \<Link to Report\>
-  - \<Copy of actual results including passed/failed\>
+- Dev: <Link to Report\>
+- Staging: <Link to Report\>
+- WML-SMOKE SVT: <Link to Report\>
+  - <Copy of actual results including passed/failed\>
 
 ## Production Deployment Checklist
 
