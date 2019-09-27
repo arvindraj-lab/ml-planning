@@ -6,7 +6,7 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 # Deep Learning as a Service (DLaaS) Production Deployment Plan (PDP)
 
 ## Deployment description:
-< Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z>
+< Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z including links to the corresponding issues>
 
 ## Desired Target Deployment Date
 - < MM-DD-YYYY >
