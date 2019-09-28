@@ -16,8 +16,8 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
-| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w59 | 10.73.115.153 | 9/26/2019 | 12/25/2019 |  |  
-| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w57 | 10.73.115.225 | 9/26/2019 | 12/25/2019 |  |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w59 | 10.73.115.153 | 9/26/2019 | 12/25/2019 | 9/28/2019 |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w57 | 10.73.115.225 | 9/26/2019 | 12/25/2019 | 9/28/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w499 | 10.93.165.75 | 9/26/2019 | 12/25/2019 |  |  
 | kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w108 | null | 9/26/2019 | 12/25/2019 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w452 | 10.93.187.15 | 9/26/2019 | 12/25/2019 |  |  
@@ -311,9 +311,9 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w4 | 10.184.11.119 | 9/23/2019 | 12/22/2019 |  |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w411 | 10.185.78.193 | 9/23/2019 | 12/22/2019 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w453 | 10.93.187.162 | 9/23/2019 | 12/22/2019 |  |  
+| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w16 | 10.93.145.188 | 9/23/2019 | 12/22/2019 | 9/28/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w472 | 10.93.164.253 | 9/23/2019 | 12/22/2019 |  |  
 | kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w14 | 10.45.105.181 | 9/23/2019 | 12/22/2019 |  |  
-| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w16 | 10.93.145.188 | 9/23/2019 | 12/22/2019 |  |  
 | kube-tok02-cr00af2a4a8cae44029f26cc72e33cf74a-w39 | 10.132.102.164 | 9/23/2019 | 12/22/2019 |  |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w50 | 10.93.59.133 | 9/23/2019 | 12/22/2019 |  |  
 | kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w70 | 10.45.120.109 | 9/23/2019 | 12/22/2019 |  |  
@@ -817,7 +817,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Fri Sep 27 2019 10:10:27 GMT+0000_  
+_Last Modified: Sat Sep 28 2019 07:57:36 GMT+0000_  
 _Tracker Issue: 5d8b115be5d14500114bedd5_  
 _cCode: armada_  
 _appId: pm-20_
