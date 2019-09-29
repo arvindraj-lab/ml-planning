@@ -11,13 +11,16 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19092118&id=19092118&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 3/24/2020    
+**SOS Risk Expiration Date:** 3/26/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w63 | 10.73.115.143 | 9/28/2019 | 3/26/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w59 | 10.73.115.153 | 9/26/2019 | 3/24/2020 | 9/28/2019 |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w59 _[v2]_ | 10.73.115.153 | 9/26/2019 | 3/24/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w57 | 10.73.115.225 | 9/26/2019 | 3/24/2020 | 9/28/2019 |  
+| kube-dal13-crdce71c3859cc41b589a3df52134e3322-w57 _[v2]_ | 10.73.115.225 | 9/26/2019 | 3/24/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w469 | 10.73.230.17 | 9/25/2019 | 3/23/2020 |  |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w471 | 10.185.78.131 | 9/25/2019 | 3/23/2020 |  |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w470 | 10.185.78.239 | 9/25/2019 | 3/23/2020 |  |  
@@ -1588,7 +1591,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sat Sep 28 2019 10:32:20 GMT+0000_  
+_Last Modified: Sun Sep 29 2019 10:33:32 GMT+0000_  
 _Tracker Issue: 5d85cbc8e5d145001136f0ef_  
 _cCode: armada_  
 _appId: pm-20_
