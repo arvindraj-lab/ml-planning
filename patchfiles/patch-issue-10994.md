@@ -129,7 +129,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w387 | 10.93.187.21 | 9/18/2019 | 3/16/2020 | 9/26/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w387 _[v2]_ | 10.93.187.21 | 9/18/2019 | 3/16/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w325 | 10.73.162.221 | 9/17/2019 | 3/15/2020 | 9/23/2019 |  
-| kube-dal10-cr01184860e7f949858455c16dba568a71-w318 | 10.93.82.112 | 9/17/2019 | 3/15/2020 |  |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w318 | 10.93.82.112 | 9/17/2019 | 3/15/2020 | 9/30/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w345 | 10.73.162.248 | 9/17/2019 | 3/15/2020 | 9/22/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w460 | 10.93.187.233 | 9/17/2019 | 3/15/2020 | 9/26/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w460 _[v2]_ | 10.93.187.233 | 9/17/2019 | 3/15/2020 |  |  
@@ -1286,7 +1286,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sun Sep 29 2019 08:05:10 GMT+0000_  
+_Last Modified: Mon Sep 30 2019 08:06:52 GMT+0000_  
 _Tracker Issue: 5d81d860b33c4900178f3765_  
 _cCode: armada_  
 _appId: pm-20_
