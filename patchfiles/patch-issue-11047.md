@@ -6,16 +6,17 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 ## Details  
 **Fixlet Severity:** low  
 **Fixlet ID:** 19092118  
-**Fixlet Name:** Unspecified - Linux-Libc-Dev - Ubuntu 16.04 (amd64)  
+**Fixlet Name:** Unspecified - Linux-Libc-Dev - Ubuntu 16.04 (amd64) (Superseded)  
 **Fixlet Site Name:** Patches for Ubuntu 1604  
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19092118&id=19092118&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 3/29/2020    
+**SOS Risk Expiration Date:** 4/1/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w102 | 10.93.167.37 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w447 | 10.93.187.94 | 10/1/2019 | 3/29/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w63 | 10.73.115.143 | 9/28/2019 | 3/26/2020 | 10/1/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w59 _[v2]_ | 10.73.115.153 | 9/26/2019 | 3/24/2020 | 10/1/2019 |  
@@ -1601,7 +1602,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Fri Oct 04 2019 21:07:40 GMT+0000_  
+_Last Modified: Sat Oct 05 2019 08:10:47 GMT+0000_  
 _Tracker Issue: 5d85cbc8e5d145001136f0ef_  
 _cCode: armada_  
 _appId: pm-20_
