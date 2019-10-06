@@ -84,7 +84,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w49 | 10.73.115.194 | 9/24/2019 | 12/23/2019 | 10/5/2019 |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w15 | 10.93.145.156 | 9/24/2019 | 12/23/2019 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w460 | 10.93.187.233 | 9/24/2019 | 12/23/2019 |  |  
-| kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w107 | null | 9/24/2019 | 12/23/2019 |  |  
+| kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w107 | null | 9/24/2019 | 12/23/2019 | 10/6/2019 |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w6 | 10.184.11.120 | 9/24/2019 | 12/23/2019 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w19 | 10.184.11.94 | 9/24/2019 | 12/23/2019 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w500 | 10.93.165.62 | 9/24/2019 | 12/23/2019 |  |  
@@ -857,7 +857,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sat Oct 05 2019 07:47:25 GMT+0000_  
+_Last Modified: Sun Oct 06 2019 07:45:54 GMT+0000_  
 _Tracker Issue: 5d8b115be5d14500114bedd5_  
 _cCode: armada_  
 _appId: pm-20_
