@@ -11,11 +11,13 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=19100138&id=19100138&p_site_name=Patches%20for%20Ubuntu%201604  
 **SOS Risk Exception:** No  
 **SOS Risk Number:** There is no Risk Number INFO.  
-**SOS Risk Expiration Date:** 4/1/2020    
+**SOS Risk Expiration Date:** 4/2/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal10-cr01184860e7f949858455c16dba568a71-w535 | 10.93.167.17 | 10/5/2019 | 4/2/2020 |  |  
+| kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w4 | 10.45.105.250 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w550 | 10.93.166.208 | 10/4/2019 | 4/1/2020 |  |  
 | kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w77 | 10.45.105.166 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w506 | 10.93.167.138 | 10/4/2019 | 4/1/2020 |  |  
@@ -674,7 +676,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sat Oct 05 2019 08:19:01 GMT+0000_  
+_Last Modified: Sun Oct 06 2019 08:20:40 GMT+0000_  
 _Tracker Issue: 5d9840be590a02001751c8d8_  
 _cCode: armada_  
 _appId: pm-20_
