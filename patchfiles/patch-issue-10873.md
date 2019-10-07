@@ -682,6 +682,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-lon04-cra4a4d56b2f9149509700ae7c06bb07c5-w14 _[v2]_ | 10.45.102.169 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w416 _[v2]_ | 10.185.78.162 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w121 _[v2]_ | 10.184.244.209 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
+| kube-dal10-crf201d409bdef463d9fce6e062db25708-w40 _[v5]_ | 10.93.21.99 | 9/12/2019 | 3/10/2020 | 10/7/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w78 _[v5]_ | 10.73.115.186 | 9/12/2019 | 3/10/2020 | 10/1/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w78 _[v4]_ | 10.73.115.186 | 9/12/2019 | 3/10/2020 | 9/29/2019 |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w40 _[v4]_ | 10.93.145.178 | 9/12/2019 | 3/10/2020 | 9/29/2019 |  
@@ -690,7 +691,6 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w52 _[v2]_ | 10.72.64.232 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w78 _[v2]_ | 10.73.115.186 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w40 _[v2]_ | 10.93.145.178 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
-| kube-dal10-crf201d409bdef463d9fce6e062db25708-w40 _[v5]_ | 10.93.21.99 | 9/12/2019 | 3/10/2020 |  |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w38 _[v4]_ | 10.93.145.163 | 9/12/2019 | 3/10/2020 | 9/29/2019 |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w38 _[v3]_ | 10.93.145.163 | 9/12/2019 | 3/10/2020 | 9/25/2019 |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w38 _[v2]_ | 10.93.145.163 | 9/12/2019 | 3/10/2020 | 9/20/2019 |  
@@ -1021,7 +1021,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Sun Oct 06 2019 07:51:43 GMT+0000_  
+_Last Modified: Mon Oct 07 2019 07:57:57 GMT+0000_  
 _Tracker Issue: 5d80869ab33c490017828bbe_  
 _cCode: armada_  
 _appId: pm-20_
