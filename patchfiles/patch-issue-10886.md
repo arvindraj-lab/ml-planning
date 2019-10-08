@@ -301,6 +301,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w97 _[v2]_ | 10.184.244.216 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w431 _[v2]_ | 10.185.78.164 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-dal12-crb98c8e70cf504ceeb9444c28fd0a288e-w288 _[v2]_ | 10.185.78.184 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
+| kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w9 _[v5]_ | 10.184.11.122 | 9/12/2019 | 12/11/2019 | 10/8/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w50 _[v5]_ | 10.73.115.187 | 9/12/2019 | 12/11/2019 | 10/1/2019 |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w50 _[v4]_ | 10.73.115.187 | 9/12/2019 | 12/11/2019 | 9/29/2019 |  
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w9 _[v4]_ | 10.184.11.122 | 9/12/2019 | 12/11/2019 | 9/29/2019 |  
@@ -311,7 +312,6 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w91 _[v2]_ | 10.73.162.251 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w9 _[v2]_ | 10.184.11.122 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w13 _[v2]_ | 10.93.145.153 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
-| kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w9 _[v5]_ | 10.184.11.122 | 9/12/2019 | 12/11/2019 |  |  
 | kube-dal10-cr24164dfe5c7842c98de431e53b6111d9-w47 _[v2]_ | 10.176.86.180 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-fra02-cr94bd193f10a747e29f5d401bdbb265b1-w41 _[v2]_ | 10.85.112.102 | 9/12/2019 | 12/11/2019 | 9/20/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w330 _[v3]_ | 10.73.162.203 | 9/12/2019 | 12/11/2019 | 9/23/2019 |  
@@ -1103,7 +1103,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Mon Oct 07 2019 07:58:29 GMT+0000_  
+_Last Modified: Tue Oct 08 2019 07:58:32 GMT+0000_  
 _Tracker Issue: 5d8086bfb33c49001782d130_  
 _cCode: armada_  
 _appId: pm-20_
