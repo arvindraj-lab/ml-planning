@@ -69,6 +69,6 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 
 ## Approvals
 (Added as a seperate comment -- not in description)
-- Dev representative **->** <Add comment stating "I Approve">
-- QA representative **->** <Add comment stating "I Approve">
-- DevOps representative **->** <Add comment stating "I Approve">
+- Dev representative **->** <Add comment stating "I have reviewed and I approve.">
+- QA representative **->** <Add comment stating "I have reviewed and I approve.">
+- DevOps representative **->** <Add comment stating "I have reviewed and I approve.">
