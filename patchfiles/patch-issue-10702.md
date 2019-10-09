@@ -572,6 +572,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-lon04-cra4a4d56b2f9149509700ae7c06bb07c5-w7 | 10.45.102.182 | 9/6/2019 | 3/4/2020 | 9/20/2019 |  
 | kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w54 | 10.123.38.217 | 9/6/2019 | 3/4/2020 | 9/20/2019 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w545 | 10.93.164.162 | 9/6/2019 | 3/4/2020 | 9/14/2019 |  
+| kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w12 _[v2]_ | 10.184.112.138 | 9/6/2019 | 3/4/2020 | 10/9/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w282 _[v2]_ | 10.73.162.215 | 9/6/2019 | 3/4/2020 | 9/23/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w100 _[v2]_ | 10.73.162.212 | 9/6/2019 | 3/4/2020 | 9/23/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w96 _[v2]_ | 10.73.162.205 | 9/6/2019 | 3/4/2020 | 9/22/2019 |  
@@ -587,7 +588,6 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w96 | 10.73.162.205 | 9/6/2019 | 3/4/2020 | 9/16/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w282 | 10.73.162.215 | 9/6/2019 | 3/4/2020 | 9/16/2019 |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w100 | 10.73.162.212 | 9/6/2019 | 3/4/2020 | 9/16/2019 |  
-| kube-dal12-cr0403cd2fa0864275862b5cfa101c8e0b-w12 _[v2]_ | 10.184.112.138 | 9/6/2019 | 3/4/2020 |  |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w260 _[v2]_ | 10.94.122.182 | 9/6/2019 | 3/4/2020 | 9/23/2019 |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w117 _[v2]_ | 10.93.59.159 | 9/6/2019 | 3/4/2020 | 9/22/2019 |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w4 _[v2]_ | 10.184.11.99 | 9/6/2019 | 3/4/2020 | 9/21/2019 |  
@@ -1028,7 +1028,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Tue Oct 08 2019 07:41:14 GMT+0000_  
+_Last Modified: Wed Oct 09 2019 07:42:46 GMT+0000_  
 _Tracker Issue: 5d735646717c950010b7cbe6_  
 _cCode: armada_  
 _appId: pm-20_
