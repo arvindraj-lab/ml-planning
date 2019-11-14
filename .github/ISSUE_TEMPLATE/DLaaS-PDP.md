@@ -5,8 +5,8 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 ---
 # Deep Learning as a Service (DLaaS) Production Deployment Plan (PDP)
 
-## Deployment description:
-< Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z including links to the corresponding issues>
+## Deployment Description:
+- < Add a high description of the changes e.g. security fixes, BOM updates, add features X,Y,Z including links to the corresponding issues>
 
 ## Desired Target Deployment Date
 - < MM-DD-YYYY >
@@ -22,38 +22,72 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 - < Genkins build logs>
 
 ### Test logs
-- Dev: <Link to Report\>
-- Staging: <Link to Report\>
-- WML-SMOKE SVT: <Link to Report\>
-  - <Copy of actual results including passed/failed\>
+
+**NOTE: DVT NOT REQUIRED IF NO MICROSERVICE OR LEARNER UPDATES**
+- DVT Test Dev: <Link to Report\>
+- DVT Test Staging: <Link to Report\>
+- WML-SMOKE SVT Staging: <Link to Report\>
+    ```
+    <Copy of actual results including passed/failed\>
+    ```
+
+## Deployment Instructions
+
+**REMOVE IF NOT UPDATING MICROSERVICES OR LEARNER IMAGES**
+1. Use the [DeployAll Jenkins Job](https://watson-tron-jenkins.swg-devops.com/job/dlaas-retail/job/deployAll/job/deploy/) with the following options:
+
+| Microservice   | Requirement | Version       |
+| -------------- | ----------- | ------------- |
+| Learner Config | <YES/No>    | <blank/`<master-xyz>` |
+| LCM            | <YES/No>    | <blank/`<master-xyz>` |
+| Trainer        | <YES/No>    | <blank/`<master-xyz>` |
+| TDS            | <YES/No>    | <blank/`<master-xyz>` |
+| Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
+| DVT            | <YES/No>    | <blank/`<master-xyz>` |
+
+**ONLY REQUIRED IF** `Learner Config=YES` **AND** `LCM=NO`
+1. Restart the LCM serviec using the following command.  NOTE: Requires `kubectl 1.15`
+    ```
+    kubectl -n dlaas rollout restart deployment dlaas-lcm
+    ```
+    
+**REMOVE IF NOT UPDATING COS DRIVER**
+1. Update the COS Driver by following the instructions [HOW TO UPDATE THE COS DRIVER](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/UpdateCOS.md)
+
+**REMOVE IF NOT UPDATING IKS**
+1. Update the IKS Worker Nodes by following the instructions [HOW TO UPDATE KUBERNETES FOR DLAAS](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/UpdateIKS.md)
+
+**REMOVE IF NOT UPDATING CSUTIL**
+1. Re-run the `csutil` setup by following the instructions [How To Install and Update csutil](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/InstallUpdatecsutil.md)
+
+## Rollback Instructions
+
+**REMOVE IF NOT UPDATING MICROSERVICES OR LEARNER IMAGES**
+1. Use the [DeployAll Jenkins Job](https://watson-tron-jenkins.swg-devops.com/job/dlaas-retail/job/deployAll/job/deploy/) with the following options:
+
+| Microservice   | Requirement | Version       |
+| -------------- | ----------- | ------------- |
+| Learner Config | <YES/No>    | <blank/`<master-xyz>` |
+| LCM            | <YES/No>    | <blank/`<master-xyz>` |
+| Trainer        | <YES/No>    | <blank/`<master-xyz>` |
+| TDS            | <YES/No>    | <blank/`<master-xyz>` |
+| Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
+| DVT            | <YES/No>    | <blank/`<master-xyz>` |
+
+**ONLY REQUIRED IF** `Learner Config=YES` **AND** `LCM=NO`
+1. Restart the LCM serviec using the following command.  NOTE: Requires `kubectl 1.15`
+    ```
+    kubectl -n dlaas rollout restart deployment dlaas-lcm
+    ```
+
+**REMOVE IF NOT APPLICABLE**
+1. IKS downgrade not supported.
+
+1. COS driver downgrade not supported.
+
+1. csutil downgrade not supported.
 
 ## Production Deployment Checklist
-
-## Document the steps you used to deploy this change
-1. Use the [DeployAll Jenkins Job](https://watson-tron-jenkins.swg-devops.com/job/dlaas-retail/job/deployAll/job/deploy/) with the following options:
-
-| Microservice   | Requirement | Version       |
-| -------------- | ----------- | ------------- |
-| Learner Config | <YES/No>    | <blank/`<master-xyz>` |
-| LCM            | <YES/No>    | <blank/`<master-xyz>` |
-| Trainer        | <YES/No>    | <blank/`<master-xyz>` |
-| TDS            | <YES/No>    | <blank/`<master-xyz>` |
-| Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
-| DVT            | <YES/No>    | <blank/`<master-xyz>` |
-
-2. Other steps as required (non-Jenkins steps)
-
-## Document the steps to roll back the change if there is an issue
-1. Use the [DeployAll Jenkins Job](https://watson-tron-jenkins.swg-devops.com/job/dlaas-retail/job/deployAll/job/deploy/) with the following options:
-
-| Microservice   | Requirement | Version       |
-| -------------- | ----------- | ------------- |
-| Learner Config | <YES/No>    | <blank/`<master-xyz>` |
-| LCM            | <YES/No>    | <blank/`<master-xyz>` |
-| Trainer        | <YES/No>    | <blank/`<master-xyz>` |
-| TDS            | <YES/No>    | <blank/`<master-xyz>` |
-| Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
-| DVT            | <YES/No>    | <blank/`<master-xyz>` |
 
 ### Production Retail
 - [ ] prdwat_dal10_cruiser5_retail 
@@ -72,3 +106,7 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 - Dev representative **->** <Add comment stating "I have reviewed and I approve.">
 - QA representative **->** <Add comment stating "I have reviewed and I approve.">
 - DevOps representative **->** <Add comment stating "I have reviewed and I approve.">
+
+## Change Request
+Create a [Watson Machine Learning CR](https://github.ibm.com/NGP-TWC/WDP-Deployments/issues/new/choose) and include link here.
+
