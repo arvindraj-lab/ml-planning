@@ -103,9 +103,9 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 
 ## Approvals
 (Added as a seperate comment -- not in description)
-- Dev representative **->** <Add comment stating "I have reviewed and I approve.">
-- QA representative **->** <Add comment stating "I have reviewed and I approve.">
-- DevOps representative **->** <Add comment stating "I have reviewed and I approve.">
+- Dev representative **->** <Add comment stating "I have reviewed and I approve for Dev.">
+- QA representative **->** <Add comment stating "I have reviewed and I approve for QA.">
+- DevOps representative **->** <Add comment stating "I have reviewed and I approve for DevOps.">
 
 ## Change Request
 Create a [Watson Machine Learning CR](https://github.ibm.com/NGP-TWC/WDP-Deployments/issues/new/choose) and include link here.
