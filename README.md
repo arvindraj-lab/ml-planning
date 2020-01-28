@@ -41,13 +41,13 @@ A Guild is a group of people that form a community of interest across the full o
 
 | Guild Name | Scope | Leader | Reporting | Members |
 | -------- | ---------- | ------------- | -------- | -------- |
-| Architecture | Drive Architecture direction across WML | Marius Danciu| Anthony Casaletto | Marius Danciu, Robert Duncan, Donald Pierucci |
+| Architecture | Drive Architecture direction across WML | Marius Danciu| Monica Romila | Marius Danciu, Robert Duncan, Donald Pierucci |
 | Performance | Drive Performance Strategy across WML | Basker Shanmugam| Vinod Khader | Basker Shanmugam, Andrew Thompson |
 | Metrics | Drive Metric collection and reporting | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Andrew Thompson |
 | Monitoring | Overall monitoring of services, Alerting | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Hemant Singh, Basker Shanmugam |
 | QA | Drive Test strategy across WML | Monica Romila | Remus Lazar | Monica Romila, Diana Tesedean, Elaine, Nikhil, Nareen |
 | Operations | Drive Operations strategy across WML including Continuous Integration, Runbooks | Shashank Vagarali | Vinod Khader | Shashank Vagarali, Prabhu S Padashetty, Estee J Mathew, Jins M Alex, Hemant K Singh, Mihai Sarto, Andrew Thompson  |
-| Security | Security reviews and strategy across WML | TBD | Anthony Casaletto | TBD |
+| Security | Security reviews and strategy across WML | TBD | Monica Romila | TBD |
 | Compliance | Compliance execution across WML | Janakiraman Krishnamurthy | Vinod Khader | Janakiraman Krishnamurthy, Devops squad |
 
 ## Making guilds effective
