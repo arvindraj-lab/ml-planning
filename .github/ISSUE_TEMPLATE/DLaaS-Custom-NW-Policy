@@ -1,0 +1,39 @@
+---
+name: DLaaS custom network policy request
+about: This template should be used to request for, and document . the deployment of custom DLaaS egress network policies
+
+---
+# Deep Learning as a Service (DLaaS) custom egress Network Policy
+
+NOT FINISHED
+
+## Guidance:
+WML users running deep learning training jobs can request for those jobs to be blocked from outbound access (egress) to the
+internet. To do so they need to submit a request to IBM Support and supply the following: 
+
+## Customer information, to be provided by IBM Support
+- Add or Remove a network policy: < add | remove >
+- Customer ID: <provide the customer's WML id, typically in the form of `wml_user_<instance_id>`
+- Customer region: < Dallas | London >
+- Sublist selection
+  - [Y/N] - IBM COS
+  - [Y/N] - Python repo's and related locations
+  - [Y/N] - AWS S3
+  - [Y/N] - Github
+  - [Y/N] - IBM PostgresSQL
+- Customer specific IP's in cidr form `999.999.999.999/99`
+
+## DLaaS Ops Deployment Information
+
+- Follow the Runbook here
+
+## Approvals
+(Added as a seperate comment -- not in description)
+- Dev representative **->** <Add comment stating "I have reviewed and I approve for Dev.">
+- QA representative **->** <Add comment stating "I have reviewed and I approve for QA.">
+- DevOps representative **->** <Add comment stating "I have reviewed and I approve for DevOps.">
+
+### Post Deployment logs 
+- < copy of Deployment Logs for each cluster > 
+
+
