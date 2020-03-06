@@ -1,6 +1,6 @@
 ---
 name: DLaaS custom network policy request
-about: This template should be used to request for, and document . the deployment of custom DLaaS egress network policies
+about: This template should be used to request for, and document, the deployment of custom DLaaS egress network policies
 
 ---
 # Deep Learning as a Service (DLaaS) custom egress Network Policy
@@ -25,15 +25,8 @@ internet. To do so they need to submit a request to IBM Support and supply the f
 
 ## DLaaS Ops Deployment Information
 
-- Follow the Runbook here
+- Follow the Runbook [here](provide link)
 
-## Approvals
-(Added as a seperate comment -- not in description)
-- Dev representative **->** <Add comment stating "I have reviewed and I approve for Dev.">
-- QA representative **->** <Add comment stating "I have reviewed and I approve for QA.">
-- DevOps representative **->** <Add comment stating "I have reviewed and I approve for DevOps.">
 
-### Post Deployment logs 
-- < copy of Deployment Logs for each cluster > 
 
 
