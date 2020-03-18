@@ -1,13 +1,13 @@
 ---
 name: WML/DLaaS Custom Egress template
 about: Template for IBM Support to request custom WML/DLaaS egress policies for customers
-title: "WML customer egress request [DATE]"
+title: "WML customer egress request for [WML INSTANCE ID]"
 labels: wml-dlaas, DLaaS Retail Ops, WML-devOps
 assignees: pvanrun, otucker, krishnamurthy-a
 ---
 # Watson Machine Learning - Deep Learning Custom Egress Request
 
-Upon request WML customers can ask to have their deep learning (DLaaS) learner processes blocked from outbound access (egress) to the internet for security purposes. They can do so by submitting a request to IBM Support. This is documented in the WML public cloud documentation.
+Upon request WML customers can ask to have their deep learning (DLaaS) training and scoring processes blocked from outbound access (egress) to the internet for security purposes. They can do so by submitting a request to IBM Support. This is documented in the WML public cloud documentation.
 
 ---
 
@@ -16,7 +16,7 @@ Upon request WML customers can ask to have their deep learning (DLaaS) learner p
 Please supply the following:
 
 - Customer name:
-- WML Instance ID: 
+- WML Instance ID:
 
 ### Select the WML location
 
