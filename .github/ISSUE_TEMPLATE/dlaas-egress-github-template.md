@@ -1,8 +1,9 @@
 ---
 name: WML/DLaaS Custom Egress template
-about: This template should be used by IBM Support to request custom WML/DLaaS egress policies for customers
+about: Template for IBM Support to request custom WML/DLaaS egress policies for customers
+title: "WML customer egress request [DATE]"
 labels: wml-dlaas, DLaaS Retail Ops, WML-devOps
-assignees: pvanrun, otucker
+assignees: pvanrun, otucker, krishnamurthy-a
 ---
 # Watson Machine Learning - Deep Learning Custom Egress Request
 
@@ -12,10 +13,17 @@ Upon request WML customers can ask to have their deep learning (DLaaS) learner p
 
 ## For IBM Support to fill in:
 
+Please supply the following:
+
+- Customer name:
+- WML Instance ID: 
+
 ### Select the WML location
 
 - [ ] Dallas
 - [ ] London
+- [ ] Frankfurt (scoring only, no deep learning)
+- [ ] Tokyo (scoring only, no deep learning)
 
 ### White list selection
 
@@ -53,7 +61,7 @@ Provide the required IP addresses here, 25 max. :
 - < MM-DD-YYYY >
 
 ---
-## For DLaaS Ops purposes:
+## For DLaaS Ops purposes (i.e. DL training):
 
 Deployed on < MM-DD-YYYY >
 
