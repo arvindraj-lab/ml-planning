@@ -1,7 +1,8 @@
 ---
 name: WML/DLaaS Custom Egress template
-about: This template should be used to request custom DLaaS egress policies for customers
-
+about: This template should be used by IBM Support to request custom WML/DLaaS egress policies for customers
+labels: wml-dlaas, DLaaS Retail Ops, WML-devOps
+assignees: pvanrun, otucker
 ---
 # Watson Machine Learning - Deep Learning Custom Egress Request
 
@@ -71,7 +72,7 @@ Find instructions on how to deploy/rollback custom egress policies
 (Added as a seperate comment -- not in description)
 - < Backout Logs for each cluster (if applicable) >
 
-## Approvals
+### Approvals
 (Added as a seperate comment -- not in description)
 - Dev representative **->** <Add comment stating "I have reviewed and I approve for Dev.">
 - QA representative **->** <Add comment stating "I have reviewed and I approve for QA.">
