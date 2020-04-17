@@ -586,9 +586,9 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 | kube-tok04-cr00af2a4a8cae44029f26cc72e33cf74a-w12 | 10.192.8.15 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w310 | 10.94.122.196 | 10/4/2019 | 4/1/2020 |  |  
 | kube-fra04-cr94bd193f10a747e29f5d401bdbb265b1-w53 | 10.75.67.137 | 10/4/2019 | 4/1/2020 |  |  
+| kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w5 | 10.123.50.214 | 10/4/2019 | 4/1/2020 | 4/16/2020 |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w462 | 10.93.187.177 | 10/4/2019 | 4/1/2020 | 3/12/2020 |  
 | kube-lon04-cr91bc05bcb83c4e7693c775e8c8adcd82-w21 | 10.45.105.87 | 10/4/2019 | 4/1/2020 | 3/12/2020 |  
-| kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w5 | 10.123.50.214 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal10-cr01184860e7f949858455c16dba568a71-w464 | 10.93.187.70 | 10/4/2019 | 4/1/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w60 | 10.73.115.234 | 10/4/2019 | 4/1/2020 | 3/12/2020 |  
 | kube-dal10-crb98c8e70cf504ceeb9444c28fd0a288e-w466 | 10.94.122.148 | 10/4/2019 | 4/1/2020 |  |  
@@ -824,7 +824,7 @@ This issue was generated automatically by the SOS-GHE Patch Automation.  Please 
 
 
 ---  
-_Last Modified: Thu Apr 16 2020 01:02:09 GMT+0000_  
+_Last Modified: Fri Apr 17 2020 01:02:31 GMT+0000_  
 _Tracker Issue: 5d9840d3590a02001751f582_  
 _cCode: armada_  
 _appId: pm-20_
