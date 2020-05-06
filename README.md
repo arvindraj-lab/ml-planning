@@ -77,10 +77,6 @@ There are a set of principles that each guild needs to folow up.
 - Private v3 API - http://watson-ml-v3-api-private.mybluemix.net
 - Private v2 API - http://watson-ml-v2-api-private.mybluemix.net
 
-### APIs promotion path
-- design-api -> private - > public
-- design-api-private -> private
-
 # Important Slack channels
 - #wml-dev - For all development queries
 - #wml-pd-ops - For all Production issues and outages
