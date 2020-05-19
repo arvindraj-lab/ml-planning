@@ -10,12 +10,14 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 **Healthcheck Site Name:** CIS Checklist for Ubuntu 16.04 LTS Server  
 **Fixlet Remediation Details:** https://w3.sos.ibm.com/inventory.nsf/fixlet_details.xsp?p_check_id=121552&id=121552&p_site_name=CIS%20Checklist%20for%20Ubuntu%2016.04%20LTS%20Server  
 **SOS Risk Exception:** Yes  
-**SOS Risk Number:** [RSK100019564](https://w3-01.ibm.com/finance/controls/wwbcit/riskEdit.wss?riskId=RSK100019564)  
+**SOS Risk Number:** [PCE-ALL-000002](https://w3-01.ibm.com/finance/controls/wwbcit/riskEdit.wss?riskId=PCE-ALL-000002)  
 **SOS Risk Expiration Date:** 5/31/2020    
 
 ## Systems:  
 | System | Private IP [ben] | Discovered | Due Date | Remediated |  
 | --- | --- | --- | --- | --- |  
+| kube-dal12-cr601565deb22d40809f1c1bb0e38e9241-w27 _[v3]_ | 10.184.11.75 | 1/22/2019 | 5/31/2020 | 5/18/2020 |  
+| kube-dal12-cr601565deb22d40809f1c1bb0e38e9241-w26 _[v2]_ | 10.184.11.113 | 1/22/2019 | 5/31/2020 | 5/18/2020 |  
 | kube-fra02-cr94bd193f10a747e29f5d401bdbb265b1-w56 | 10.85.112.109 | 2/21/2020 | 5/31/2020 | 4/2/2020 |  
 | kube-fra02-cr94bd193f10a747e29f5d401bdbb265b1-w60 | 10.85.112.100 | 3/13/2020 | 5/31/2020 | 4/2/2020 |  
 | kube-lon04-cra4a4d56b2f9149509700ae7c06bb07c5-w47 | 10.45.102.164 | 8/28/2019 | 5/31/2020 | 4/2/2020 |  
@@ -402,7 +404,6 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w8 _[v3]_ | 10.186.176.107 | 2/15/2019 | 5/31/2020 |  |  
 | kube-dal13-cr601565deb22d40809f1c1bb0e38e9241-w19 _[v2]_ | 10.186.176.115 | 1/22/2019 | 5/31/2020 |  |  
 | kube-dal13-cr601565deb22d40809f1c1bb0e38e9241-w18 _[v2]_ | 10.186.176.90 | 1/22/2019 | 5/31/2020 |  |  
-| kube-dal12-cr601565deb22d40809f1c1bb0e38e9241-w27 _[v3]_ | 10.184.11.75 | 1/22/2019 | 5/31/2020 |  |  
 | kube-dal10-cr601565deb22d40809f1c1bb0e38e9241-w23 _[v2]_ | 10.93.145.131 | 1/22/2019 | 5/31/2020 |  |  
 | kube-dal13-crf201d409bdef463d9fce6e062db25708-w37 _[v5]_ | 10.186.176.72 | 10/13/2018 | 5/31/2020 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w39 _[v5]_ | 10.184.11.81 | 10/12/2018 | 5/31/2020 |  |  
@@ -502,7 +503,6 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 | kube-fra02-cr94bd193f10a747e29f5d401bdbb265b1-w11 _[v4]_ | 10.85.35.18 | 9/18/2018 | 5/31/2020 |  |  
 | kube-dal13-crb98c8e70cf504ceeb9444c28fd0a288e-w87 _[v5]_ | 10.73.162.227 | 6/26/2018 | 5/31/2020 |  |  
 | kube-dal13-crdce71c3859cc41b589a3df52134e3322-w101 _[v2]_ | 10.73.115.180 | 1/26/2019 | 5/31/2020 |  |  
-| kube-dal12-cr601565deb22d40809f1c1bb0e38e9241-w26 _[v2]_ | 10.184.11.113 | 1/22/2019 | 5/31/2020 |  |  
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w16 _[v3]_ | 10.72.64.251 | 1/4/2019 | 5/31/2020 |  |  
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w58 _[v2]_ | 10.72.64.199 | 8/28/2019 | 5/31/2020 |  |  
 | kube-lon05-cra4a4d56b2f9149509700ae7c06bb07c5-w21 _[v3]_ | 10.196.22.22 | 1/4/2019 | 5/31/2020 |  |  
@@ -655,7 +655,7 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 
 
 ---  
-_Last Modified: Mon May 18 2020 02:02:09 GMT+0000_  
+_Last Modified: Tue May 19 2020 02:41:49 GMT+0000_  
 _Tracker Issue: 5e71051a8e8a680012571304_  
 _cCode: armada_  
 _appId: pm-20_
