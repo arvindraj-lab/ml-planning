@@ -90,8 +90,8 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 ## Production Deployment Checklist
 
 ### Production Retail
-- [ ] prdwat_dal10_cruiser5_retail 
-- [ ] prdwat_lon04_cruiser2_retail
+- [ ] prd-wml-dl-dal-cluster1
+- [ ] prd-wml-dl-fra-cluster1
 
 ### Deployment logs 
 (Added as a seperate comment -- not in description)
