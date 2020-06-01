@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "issue": "OEL201 Create an Aha epic in [bigblue.aha.io](https://bigblue.aha.io) following the instructions provided.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL202 Attend 'Cloud Platform Onboarding Sprint SME Weekly' calls with Service Framework requirement questions, as needed.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL203 Identify costs, establish Pricing \u0026 choose pre-approved metrics for consumption billing.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL204 Update miniSD when adding new metrics, using Emptoris process/tool and receive Legal approval. Otherwise, no action required.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL205 Create new parts with Brand New Product Manager (BNPM) to prepare for completion of part coding spreadsheet.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL206 Re-Load Pricing Tables into WWPRT.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL209 Work with your Sales Enablement (SE) Lead to receive approval of GTM material updates, if required by them.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL210 Engage with your Team's Communication Approver/Publisher to establish and create appropriate communications. If there is a pricing change with the addition of the plan, engage with [Leah Forester](mailto:Leah%20%Forester/US/IBM) to create eNurture.",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    },
+    {
+      "issue": "OEL208 Informational Playback",
+      "do": {
+        "comment": "",
+        "state": "open"
+      }
+    }
+  ],
+  "repository": "NGP-TWCml-planning",
+  "aha_mapping": {
+    "name": "",
+    "reference_prefix": ""
+  }
+}
