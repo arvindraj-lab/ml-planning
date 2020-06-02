@@ -1,6 +1,9 @@
 ---
 name: WML Epic template
 about: This epic template should be used across WML microservices
+title: ''
+labels: ''
+assignees: ''
 
 ---
 

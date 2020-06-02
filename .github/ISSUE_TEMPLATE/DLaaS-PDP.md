@@ -1,8 +1,12 @@
 ---
 name: DLaaS PDP template
 about: This epic template should be used DLaaS Production Deployment Plan (PDP)
+title: ''
+labels: ''
+assignees: ''
 
 ---
+
 # Deep Learning as a Service (DLaaS) Production Deployment Plan (PDP)
 
 ## Deployment Description:
@@ -109,4 +113,3 @@ about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 
 ## Change Request
 Create a [Watson Machine Learning CR](https://github.ibm.com/NGP-TWC/WDP-Deployments/issues/new/choose) and include link here.
-
