@@ -807,6 +807,8 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 | kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w4 _[v6]_ | 10.184.11.101 | 6/13/2018 | 6/14/2020 |  |  
 | kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w67 | 10.72.64.237 | 6/1/2020 | 6/14/2020 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w22 _[v5]_ | 10.184.11.114 | 8/15/2018 | 6/14/2020 |  |  
+| kube-dal10-cr601565deb22d40809f1c1bb0e38e9241-w22 _[v4]_ | 10.93.145.175 | 5/1/2020 | 6/14/2020 |  |  
+| kube-dal12-cr601565deb22d40809f1c1bb0e38e9241-w28 _[v5]_ | 10.184.11.125 | 1/22/2019 | 6/14/2020 |  |  
 | kube-tok05-cr00af2a4a8cae44029f26cc72e33cf74a-w115 _[v2]_ | 10.193.15.16 | 3/25/2020 | 5/31/2020 | 5/25/2020 |  
 | kube-dal10-crccc07f5d294246b6837a3bd90a9b14b6-w5 _[v4]_ | 10.93.145.146 | 7/26/2018 | 5/31/2020 | 5/24/2020 |  
 | kube-fra05-cr94bd193f10a747e29f5d401bdbb265b1-w52 _[v2]_ | 10.123.50.211 | 6/20/2019 | 5/31/2020 | 5/22/2020 |  
@@ -1197,7 +1199,7 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 
 
 ---  
-_Last Modified: Wed Jun 03 2020 09:55:22 GMT+0000_  
+_Last Modified: Thu Jun 04 2020 01:49:39 GMT+0000_  
 _Tracker Issue: 5e7105238e8a680012572309_  
 _cCode: armada_  
 _appId: pm-20_
