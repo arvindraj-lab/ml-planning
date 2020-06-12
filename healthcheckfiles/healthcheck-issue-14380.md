@@ -794,6 +794,9 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 | kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w15 | 10.93.240.179 | 6/10/2020 | 6/14/2020 |  |  
 | kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w13 | 10.184.178.171 | 6/10/2020 | 6/14/2020 |  |  
 | kube-dal13-cr05e12b87f28743bb8e743c41180494c4-w14 | 10.186.176.71 | 6/10/2020 | 6/14/2020 |  |  
+| kube-lon05-cra4a4d56b2f9149509700ae7c06bb07c5-w72 | 10.196.22.24 | 6/10/2020 | 6/14/2020 |  |  
+| kube-lon04-cra4a4d56b2f9149509700ae7c06bb07c5-w73 | 10.45.102.163 | 6/10/2020 | 6/14/2020 |  |  
+| kube-lon06-cra4a4d56b2f9149509700ae7c06bb07c5-w71 | 10.72.64.230 | 6/10/2020 | 6/14/2020 |  |  
 | kube-tok05-cr00af2a4a8cae44029f26cc72e33cf74a-w115 _[v3]_ | 10.193.15.16 | 3/25/2020 | 5/31/2020 | 5/27/2020 |  
 | kube-tok05-cr00af2a4a8cae44029f26cc72e33cf74a-w115 _[v2]_ | 10.193.15.16 | 3/25/2020 | 5/31/2020 | 5/25/2020 |  
 | kube-dal10-crccc07f5d294246b6837a3bd90a9b14b6-w5 _[v3]_ | 10.93.145.146 | 7/26/2018 | 5/31/2020 | 5/24/2020 |  
@@ -1171,7 +1174,7 @@ This issue was generated automatically by the SOS-GHE Healthcheck Automation.  P
 
 
 ---  
-_Last Modified: Thu Jun 11 2020 01:46:07 GMT+0000_  
+_Last Modified: Fri Jun 12 2020 01:39:03 GMT+0000_  
 _Tracker Issue: 5e7105118e8a6800125703ad_  
 _cCode: armada_  
 _appId: pm-20_
