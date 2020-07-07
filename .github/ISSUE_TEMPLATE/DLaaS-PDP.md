@@ -47,7 +47,7 @@ assignees: ''
 | Trainer        | <YES/No>    | <blank/`<master-xyz>` |
 | TDS            | <YES/No>    | <blank/`<master-xyz>` |
 | Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
-| DVT            | <YES/No>    | <blank/`<master-xyz>` |
+| DVT            | <YES/No>    | <SMOKE/ALL> |
 
 **ONLY REQUIRED IF** `Learner Config=YES` **AND** `LCM=NO`
 1. Restart the LCM serviec using the following command.  NOTE: Requires `kubectl 1.15`
@@ -76,7 +76,7 @@ assignees: ''
 | Trainer        | <YES/No>    | <blank/`<master-xyz>` |
 | TDS            | <YES/No>    | <blank/`<master-xyz>` |
 | Ratelimiter    | <YES/No>    | <blank/`<master-xyz>` |
-| DVT            | <YES/No>    | <blank/`<master-xyz>` |
+| DVT            | <YES/No>    | <SMOKE/ALL> |
 
 **ONLY REQUIRED IF** `Learner Config=YES` **AND** `LCM=NO`
 1. Restart the LCM serviec using the following command.  NOTE: Requires `kubectl 1.15`
