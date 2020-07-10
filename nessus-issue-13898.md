@@ -38,6 +38,9 @@ Purchase or generate a proper SSL certificate for this service.
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w30 _[v15]_ | 169.47.76.242 [frontend] | 443 | 6/9/2020 | 4/1/2021 | 7/9/2020 |  
 | kube-dal10-crccc07f5d294246b6837a3bd90a9b14b6-w10 _[v14]_ | 169.60.8.2 [frontend] | 443 | 8/17/2019 | 4/1/2021 | 7/9/2020 |  
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w8 _[v15]_ | 169.62.129.98 [frontend] | 443 | 5/30/2020 | 4/1/2021 | 7/9/2020 |  
+| kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w13 _[v2]_ | 169.48.197.154 [frontend] | 443 | 6/17/2020 | 4/1/2021 | 7/9/2020 |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 | 169.61.43.82 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/9/2020 |  
+| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w15 | 169.48.191.34 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/9/2020 |  
 | kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w28 | 169.61.43.83 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/8/2020 |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w39 | 169.47.76.243 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/8/2020 |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v13]_ | 169.48.232.42 [frontend] | 443 | 6/12/2020 | 4/1/2021 | 7/8/2020 |  
@@ -281,9 +284,6 @@ Purchase or generate a proper SSL certificate for this service.
 | kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w6 _[v46]_ | 169.48.197.154 [frontend] | 443 | 3/11/2020 | 4/1/2021 |  |  
 | kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w9 _[v42]_ | 169.48.191.34 [frontend] | 443 | 3/19/2020 | 4/1/2021 |  |  
 | kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w11 _[v13]_ | 169.47.73.186 [frontend] | 443 | 6/3/2020 | 4/1/2021 |  |  
-| kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w13 _[v2]_ | 169.48.197.154 [frontend] | 443 | 6/17/2020 | 4/1/2021 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w1 | 169.61.43.82 [frontend] | 443 | 7/7/2020 | 4/1/2021 |  |  
-| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w15 | 169.48.191.34 [frontend] | 443 | 7/7/2020 | 4/1/2021 |  |  
 | kube-dal13-crf201d409bdef463d9fce6e062db25708-w62 _[v14]_ | 169.48.126.226 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
 | kube-dal10-crf201d409bdef463d9fce6e062db25708-w15 _[v14]_ | 169.60.228.10 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
 | kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v14]_ | 169.48.232.42 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
@@ -514,7 +514,7 @@ Purchase or generate a proper SSL certificate for this service.
 
 
 ---  
-_Last Modified: Thu Jul 09 2020 16:29:00 GMT+0000_  
+_Last Modified: Fri Jul 10 2020 01:08:39 GMT+0000_  
 _Tracker Issue: 5e6b2f782a82f90012c73d9b_  
 _cCode: armada_  
 _appId: pm-20_
