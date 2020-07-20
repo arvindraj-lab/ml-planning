@@ -8,7 +8,7 @@ This issue was generated automatically by the SOS-GHE Nessus Automation.  Please
 **Plugin Risk:** Medium  
 **Plugin CVE:** n/a  
 **Family :** General  
-**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=7752704  
+**SOS Details (w/scan output):** https://w3.sos.ibm.com/inventory.nsf/vulnerability.xsp?vulnId=7767529  
 **SOS Risk Exception:** Yes  
 **SOS Risk Number:** [PCE-ALL-000011](https://w3-01.ibm.com/finance/controls/wwbcit/riskEdit.wss?riskId=PCE-ALL-000011)  
 **SOS Risk Expiration Date:** 4/1/2021    
@@ -33,6 +33,21 @@ Purchase or generate a proper SSL certificate for this service.
 ## Vulnerable Hosts:
 | Host | IP [Type] | Port | Discovered | Due Date | Remediated |  
 | --- | --- | :---: | --- | --- | --- |  
+| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w28 _[v4]_ | 169.61.43.83 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w39 _[v4]_ | 169.47.76.243 [frontend] | 443 | 7/7/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v16]_ | 169.48.232.42 [frontend] | 443 | 6/12/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal10-crf201d409bdef463d9fce6e062db25708-w15 _[v16]_ | 169.60.228.10 [frontend] | 443 | 6/12/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal13-crf201d409bdef463d9fce6e062db25708-w62 _[v16]_ | 169.48.126.226 [frontend] | 443 | 6/12/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w11 _[v13]_ | 169.47.73.186 [frontend] | 443 | 6/3/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w9 _[v42]_ | 169.48.191.34 [frontend] | 443 | 3/19/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w6 _[v46]_ | 169.48.197.154 [frontend] | 443 | 3/11/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v6]_ | 169.48.175.130 [frontend] | 443 | 5/29/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w31 _[v3]_ | 169.47.76.242 [frontend] | 443 | 5/29/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 _[v34]_ | 169.47.73.186 [frontend] | 443 | 10/24/2019 | 4/1/2021 | 7/20/2020 |  
+| kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w7 _[v32]_ | 169.62.129.98 [frontend] | 443 | 1/3/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v3]_ | 169.48.175.130 [frontend] | 443 | 5/12/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w38 _[v3]_ | 169.47.76.242 [frontend] | 443 | 5/12/2020 | 4/1/2021 | 7/20/2020 |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v22]_ | 169.47.76.242 [frontend] | 443 | 3/19/2020 | 4/1/2021 | 7/20/2020 |  
 | kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 _[v4]_ | 169.47.73.186 [frontend] | 443 | 7/4/2020 | 4/1/2021 | 7/13/2020 |  
 | kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w35 _[v17]_ | 169.48.175.130 [frontend] | 443 | 6/9/2020 | 4/1/2021 | 7/13/2020 |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w30 _[v17]_ | 169.47.76.242 [frontend] | 443 | 6/9/2020 | 4/1/2021 | 7/13/2020 |  
@@ -294,21 +309,13 @@ Purchase or generate a proper SSL certificate for this service.
 | kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w41 _[v21]_ | 169.61.43.82 [frontend] | 443 | 3/19/2020 | 4/1/2021 | 4/30/2020 |  
 | kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w7 _[v17]_ | 169.62.129.98 [frontend] | 443 | 1/3/2020 | 4/1/2021 | 4/30/2020 |  
 | kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 _[v17]_ | 169.47.73.186 [frontend] | 443 | 10/24/2019 | 4/1/2021 | 4/30/2020 |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w3 _[v22]_ | 169.47.76.242 [frontend] | 443 | 3/19/2020 | 4/1/2021 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w38 _[v3]_ | 169.47.76.242 [frontend] | 443 | 5/12/2020 | 4/1/2021 |  |  
-| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v3]_ | 169.48.175.130 [frontend] | 443 | 5/12/2020 | 4/1/2021 |  |  
-| kube-dal13-crccc07f5d294246b6837a3bd90a9b14b6-w7 _[v32]_ | 169.62.129.98 [frontend] | 443 | 1/3/2020 | 4/1/2021 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w12 _[v34]_ | 169.47.73.186 [frontend] | 443 | 10/24/2019 | 4/1/2021 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w31 _[v3]_ | 169.47.76.242 [frontend] | 443 | 5/29/2020 | 4/1/2021 |  |  
-| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v6]_ | 169.48.175.130 [frontend] | 443 | 5/29/2020 | 4/1/2021 |  |  
-| kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w6 _[v46]_ | 169.48.197.154 [frontend] | 443 | 3/11/2020 | 4/1/2021 |  |  
-| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w9 _[v42]_ | 169.48.191.34 [frontend] | 443 | 3/19/2020 | 4/1/2021 |  |  
-| kube-dal12-crccc07f5d294246b6837a3bd90a9b14b6-w11 _[v13]_ | 169.47.73.186 [frontend] | 443 | 6/3/2020 | 4/1/2021 |  |  
-| kube-dal13-crf201d409bdef463d9fce6e062db25708-w62 _[v16]_ | 169.48.126.226 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
-| kube-dal10-crf201d409bdef463d9fce6e062db25708-w15 _[v16]_ | 169.60.228.10 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v16]_ | 169.48.232.42 [frontend] | 443 | 6/12/2020 | 4/1/2021 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w39 _[v4]_ | 169.47.76.243 [frontend] | 443 | 7/7/2020 | 4/1/2021 |  |  
-| kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w28 _[v4]_ | 169.61.43.83 [frontend] | 443 | 7/7/2020 | 4/1/2021 |  |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w38 _[v18]_ | 169.47.76.243 [frontend] | 443 | 3/19/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w12 _[v3]_ | 169.48.191.34 [frontend] | 443 | 3/13/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w39 _[v3]_ | 169.47.76.242 [frontend] | 443 | 3/13/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v6]_ | 169.48.232.42 [frontend] | 443 | 1/24/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal10-crf201d409bdef463d9fce6e062db25708-w38 _[v6]_ | 169.60.228.10 [frontend] | 443 | 1/7/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w11 | 169.48.191.34 [frontend] | 443 | 1/24/2020 | 12/10/2020 | 7/20/2020 |  
+| kube-dal13-crf201d409bdef463d9fce6e062db25708-w55 _[v6]_ | 169.48.126.226 [frontend] | 443 | 1/24/2020 | 12/10/2020 | 7/20/2020 |  
 | kube-dal13-cr05e12b87f28743bb8e743c41180494c4-w3 _[v21]_ | 169.61.22.50 [frontend] | 443 | 3/19/2020 | 12/10/2020 | 4/29/2020 |  
 | kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w9 _[v21]_ | 169.48.191.34 [frontend] | 443 | 3/19/2020 | 12/10/2020 | 4/29/2020 |  
 | kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w36 _[v21]_ | 169.48.175.130 [frontend] | 443 | 3/19/2020 | 12/10/2020 | 4/29/2020 |  
@@ -523,18 +530,11 @@ Purchase or generate a proper SSL certificate for this service.
 | kube-dal13-cr0dc9ed03c046495a88bed80d96939640-w40 _[v2]_ | 169.61.43.83 [frontend] | 443 | 3/11/2020 | 12/10/2020 | 3/14/2020 |  
 | kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w31 _[v2]_ | 169.47.76.243 [frontend] | 443 | 3/11/2020 | 12/10/2020 | 3/14/2020 |  
 | kube-dal12-cr05e12b87f28743bb8e743c41180494c4-w6 _[v2]_ | 169.48.197.154 [frontend] | 443 | 3/11/2020 | 12/10/2020 | 3/14/2020 |  
-| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v2]_ | 169.48.175.130 [frontend] | 443 | 3/11/2020 | 12/10/2020 | 3/14/2020 |  
-| kube-dal13-crf201d409bdef463d9fce6e062db25708-w55 _[v6]_ | 169.48.126.226 [frontend] | 443 | 1/24/2020 | 12/10/2020 |  |  
-| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w11 | 169.48.191.34 [frontend] | 443 | 1/24/2020 | 12/10/2020 |  |  
-| kube-dal10-crf201d409bdef463d9fce6e062db25708-w38 _[v6]_ | 169.60.228.10 [frontend] | 443 | 1/7/2020 | 12/10/2020 |  |  
-| kube-dal12-crf201d409bdef463d9fce6e062db25708-w13 _[v6]_ | 169.48.232.42 [frontend] | 443 | 1/24/2020 | 12/10/2020 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w39 _[v3]_ | 169.47.76.242 [frontend] | 443 | 3/13/2020 | 12/10/2020 |  |  
-| kube-dal10-cr05e12b87f28743bb8e743c41180494c4-w12 _[v3]_ | 169.48.191.34 [frontend] | 443 | 3/13/2020 | 12/10/2020 |  |  
-| kube-dal12-cr0dc9ed03c046495a88bed80d96939640-w38 _[v18]_ | 169.47.76.243 [frontend] | 443 | 3/19/2020 | 12/10/2020 |  |      
+| kube-dal10-cr0dc9ed03c046495a88bed80d96939640-w6 _[v2]_ | 169.48.175.130 [frontend] | 443 | 3/11/2020 | 12/10/2020 | 3/14/2020 |      
 
 
 ---  
-_Last Modified: Mon Jul 13 2020 12:39:38 GMT+0000_  
+_Last Modified: Mon Jul 20 2020 15:13:40 GMT+0000_  
 _Tracker Issue: 5e6b2f782a82f90012c73d9b_  
 _cCode: armada_  
 _appId: pm-20_
