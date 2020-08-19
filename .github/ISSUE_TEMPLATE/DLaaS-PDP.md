@@ -2,7 +2,7 @@
 name: DLaaS PDP template
 about: This epic template should be used DLaaS Production Deployment Plan (PDP)
 title: ''
-labels: ''
+labels: wml-dlaas
 assignees: ''
 
 ---
@@ -63,6 +63,9 @@ assignees: ''
 
 **REMOVE IF NOT UPDATING CSUTIL**
 1. Re-run the `csutil` setup by following the instructions [How To Install and Update csutil](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/InstallUpdatecsutil.md)
+
+**REMOVE IF NOT UPDATING IKS OR LEARNER IMAGES**
+1. Run the learner images caching job in each cluster to pre-cache them on the GPU nodes [How to run the learner image caching](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/CacheLearnerImages.md)
 
 ## Rollback Instructions
 
