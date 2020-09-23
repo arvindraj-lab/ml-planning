@@ -34,6 +34,7 @@ assignees: ''
     ```
     <Copy of actual results including passed/failed\>
     ```
+**Make sure the build and testing log have the word "successful" in them**
 
 ## Deployment Instructions
 
@@ -66,6 +67,7 @@ assignees: ''
 
 **REMOVE IF NOT UPDATING IKS OR LEARNER IMAGES**
 1. Run the learner images caching job in each cluster to pre-cache them on the GPU nodes [How to run the learner image caching](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/CacheLearnerImages.md)
+1. Update the [Supported Frameworks](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/SupportedDLFrameworks.md) page
 
 ## Rollback Instructions
 
@@ -93,6 +95,8 @@ assignees: ''
 1. COS driver downgrade not supported.
 
 1. csutil downgrade not supported.
+
+**Do not use N/A here, always provide this section**
 
 ## Production Deployment Checklist
 
