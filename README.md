@@ -30,7 +30,7 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Reporting | This service manages all events and reporting metrics  | Janakiraman Krishnamurthy | **Shashank Vagarali (Lead)**, Sahana Ha Anantharajaiah | 
 | Instances | This service manages WML instance operations on Cloud  | Janakiraman Krishnamurthy | **Shashank Vagarali (Lead)**, Sahana Ha Anantharajaiah | 
 | WML Clients | This include 2 components - a) Python Library to leverage WML capabilities from Notebooks, b) Command line interface (CLI) for WML  | Janakiraman Krishnamurthy | **Shashank Vagarali (Lead)**, Hanisha Nagireddy, Kamini Gupta | 
-| DL | Deep Learning Service that powers Training for DL frameworks  | Oronde Tucker | **Paul Van Run (architect)**, David Tam, Jim Rhyness, Cong Lin| 
+| DL | Deep Learning Service that powers Training for DL frameworks  | Anumpa Mukherjee | **Paul Van Run (architect)**,Cong Lin, Surya Penumatcha, Oleh Zhyhinas| 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML  | Todd Peterson | |
 | Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models  | Darren Sullivan |  |
 | Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service  | Yawen Chien |  |
