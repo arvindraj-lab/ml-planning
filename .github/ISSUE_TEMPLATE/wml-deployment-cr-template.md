@@ -3,7 +3,7 @@ name: WML Deployment CR template
 about: Template to create the WML CR content
 title: Microservices CR content for the week of <Month Date Year e.g June 8th 2020
   >
-labels: wml-microserices-CR
+labels: ''
 assignees: ''
 
 ---
