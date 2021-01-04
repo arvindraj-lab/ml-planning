@@ -17,13 +17,16 @@ assignees: ''
 
 ## Content 
 ### Image/Content(s) that changed
-- `<List of changed microservices (if any)>`
+- `< List of changed microservices (if any) >`
 
 ### Vulnerability Advisor Scan Results
-- <Listing of clean VA scan results for included images\>
+- `< Listing of clean VA scan results for included images >`
 
 ### Build logs
-- < Genkins build logs>
+- `< Genkins build logs >`
+
+### DetectSecrets Output
+- `< Clean DetectSecrects output showing no passwords in GHE >` 
 
 ### Test logs
 
@@ -106,11 +109,11 @@ assignees: ''
 
 ### Deployment logs 
 (Added as a seperate comment -- not in description)
-- < copy of Deployment Logs for each cluster > 
+- `< copy of Deployment Logs for each cluster >` 
 
 ### Backout logs (if applicable) 
 (Added as a seperate comment -- not in description)
-- < Backout Logs for each cluster (if applicable) > 
+- `< Backout Logs for each cluster (if applicable) >` 
 
 ## Approvals
 (Added as a seperate comment -- not in description)
