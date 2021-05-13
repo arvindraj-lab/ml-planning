@@ -39,6 +39,9 @@ assignees: ''
     ```
 **Make sure the build and testing log have the word "successful" in them**
 
+### Performance data
+- `< Link to Performance testing outcome for DL learner images>`
+
 ## Deployment Instructions
 
 **REMOVE IF NOT UPDATING MICROSERVICES OR LEARNER IMAGES**
@@ -114,6 +117,10 @@ assignees: ''
 ### Backout logs (if applicable) 
 (Added as a seperate comment -- not in description)
 - `< Backout Logs for each cluster (if applicable) >` 
+
+### Update Framework table
+(If a deep learning framework was deployed or updated)
+- [ ] [Framework table](https://github.ibm.com/NGP-TWC/WML-DLaaS/blob/master/HowTo/SupportedDLFrameworks.md) was updated
 
 ## Approvals
 (Added as a seperate comment -- not in description)
