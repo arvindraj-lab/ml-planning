@@ -22,6 +22,10 @@ assignees: ''
 ### Vulnerability Advisor Scan Results
 - `< Listing of clean VA scan results for included images >`
 
+### Twistlock Scan Results
+- `< Listing of clean Twistlock scan results for included images, link to the doc >`
+- `< No critical or High severity vulnerability or compliance issues for which a fix exists >`
+
 ### Build logs
 - `< Genkins build logs >`
 
