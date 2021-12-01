@@ -15,6 +15,8 @@ The Machine Learning roadmap is defined on an Aha board maintained by Offering M
 # Pre-req
 Please install the Zen-hub plug in required to view our Kanban boards and other features.  Download the plug in for either Chrome or Firefox [here](https://zenhub.innovate.ibm.com/setup/download)
 
+<!-- OBSOLETE
+
 # Squads
 
 | Squad Name | Squad Scope | Mgmt Contact | Squad Members |
@@ -34,6 +36,10 @@ Please install the Zen-hub plug in required to view our Kanban boards and other 
 | Model Visualization | Provide introspection into models and explain plans on execution and decision making. Critical for gaining TRUST on models within organization. Critical part of monitoring for WML  | Todd Peterson | |
 | Modeler Flows |  ML Canvas to allow building and running analytics pipelines and training ML models  | Darren Sullivan |  |
 | Neural Network editor | Part of the Modeler Flows experience, the Deep Learning Editor(AKA Darviz) allows users to visually create a Neural Network definition which can be saved to the ML Repository for Training withing the service  | Yawen Chien |  |
+
+-->
+
+<!-- OBSOLETE
 
 # Guilds
 
@@ -59,6 +65,8 @@ There are a set of principles that each guild needs to folow up.
 
 3. There is a need for cross-guild communication. For instance security guild may need something implemented but that may affect performance thus involving the performance and architecture guilds is recommended. 
 
+-->
+
 # WML clusters
 
 - FVT: wml-fvt.ml.test.cloud.ibm.com
@@ -72,13 +80,10 @@ There are a set of principles that each guild needs to folow up.
 
 
 # Swagger pages
-- Public apis: http://watson-ml-api.mybluemix.net
-- See here for V4 apis: https://github.ibm.com/WML/api-spec/wiki
-- Private v3 API - http://watson-ml-v3-api-private.mybluemix.net
-- Private v2 API - http://watson-ml-v2-api-private.mybluemix.net
+- See here https://github.ibm.com/WML/api-spec/wiki
 
 # Important Slack channels
 - #wml-dev - For all development queries
 - #wml-pd-ops - For all Production issues and outages
 - #wml-user - For all WML users to raise questions, issues etc
-- #wml-on-icp - For discussions on WML on ICP4D
+- #wml-on-cp4d - For discussions on WML on ICP4D
