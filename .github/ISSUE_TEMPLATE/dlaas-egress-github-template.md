@@ -23,8 +23,8 @@ Please supply the following:
 ### Select the WML location
 
 - [ ] Dallas
-- [ ] London
-- [ ] Frankfurt (scoring only, no deep learning)
+- [ ] London (scoring only, no deep learning)
+- [ ] Frankfurt 
 - [ ] Tokyo (scoring only, no deep learning)
 
 ### White list selection
@@ -68,8 +68,8 @@ Provide the required IP addresses here, 25 max. :
 Deployed on < MM-DD-YYYY >
 
 DLaaS Production Retail
-- [ ] prdwat_dal10_cruiser5_retail cluster
-- [ ] prdwat_lon04_cruiser2_retail cluster
+- [ ] prd-wml-dl-dal-cluster1 cluster
+- [ ] prd-wml-dl-fra-cluster1 cluster
 
 Find instructions on how to deploy/rollback custom egress policies
 [here](https://github.ibm.com/dlaas-retail/dlaas-network-policies#the-deployment-procedure-runbook-for-dlaas-ops)
