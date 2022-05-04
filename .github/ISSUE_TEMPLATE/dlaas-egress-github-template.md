@@ -1,15 +1,15 @@
 ---
-name: WML/DLaaS Custom Egress template
-about: Template for IBM Support to request custom WML/DLaaS egress policies for customers
+name: WML Custom Egress template
+about: Template for IBM Support to request custom WML egress policies for customers
 title: WML customer egress request for [WML INSTANCE ID]
-labels: DLaaS Retail Ops, WML-devOps, wml-dlaas
+labels: WML-devOps
 assignees: krishnamurthy-a, otucker, pvanrun
 
 ---
 
 # Watson Machine Learning - Deep Learning Custom Egress Request
 
-Upon request WML customers can ask to have their deep learning (DLaaS) training and scoring processes blocked from outbound access (egress) to the internet for security purposes. They can do so by submitting a request to IBM Support. This is documented in the WML public cloud documentation.
+Upon request WML customers can ask to have their training and scoring processes blocked from outbound access (egress) to the internet for security purposes. They can do so by submitting a request to IBM Support. This is documented in the WML public cloud documentation.
 
 ---
 
@@ -23,9 +23,9 @@ Please supply the following:
 ### Select the WML location
 
 - [ ] Dallas
-- [ ] London (scoring only, no deep learning)
+- [ ] London
 - [ ] Frankfurt 
-- [ ] Tokyo (scoring only, no deep learning)
+- [ ] Tokyo
 
 ### White list selection
 
@@ -41,7 +41,7 @@ Select any (zero or more) of the following white lists:
 
 In addition the customer can provide their own list of a maximum of 25 customer
 specific IPs, provided in cidr `999.999.999.999/99` format. Only IP's or IP
-ranges are accepted, WML/DLaaS cannot deal with domain names.
+ranges are accepted, WML cannot deal with domain names.
 
 e.g.
 ```
@@ -63,16 +63,6 @@ Provide the required IP addresses here, 25 max. :
 - < MM-DD-YYYY >
 
 ---
-## For DLaaS Ops purposes (i.e. DL training):
-
-Deployed on < MM-DD-YYYY >
-
-DLaaS Production Retail
-- [ ] prd-wml-dl-dal-cluster1 cluster
-- [ ] prd-wml-dl-fra-cluster1 cluster
-
-Find instructions on how to deploy/rollback custom egress policies
-[here](https://github.ibm.com/dlaas-retail/dlaas-network-policies#the-deployment-procedure-runbook-for-dlaas-ops)
 
 ### Deployment logs
 (Added as a seperate comment -- not in description)
