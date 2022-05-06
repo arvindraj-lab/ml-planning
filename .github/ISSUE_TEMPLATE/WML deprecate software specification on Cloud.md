@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# WML checklist for deprecating
+# WML checklist for deprecating software specification on Cloud
 
  - [ ] OM: provide dates for deprecation, blocking creating new trainings/models, and removal of the sw-spec
  - [ ] V4Repo: mark sw-spec and corresponding model_types as deprecated/create-unsupported/unsupported with coordination to deprecation dates  @siucht
