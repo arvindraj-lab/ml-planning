@@ -9,7 +9,7 @@ assignees: ''
 
 # WML checklist for deprecating software specification on CPD
 
- - [ ] V4Repo: mark sw-spec and corresponding model_types as deprecated/create-unsupported/unsupported with coordination to CPD release  @siucht
+ - [ ] V4Repo: mark sw-spec and corresponding model_types as deprecated/unsupported with coordination to CPD release  @siucht
  - [ ] Training-service: remove from list of supported runtime definition (if applicable) @kamilabaron-palucka
  - [ ] Training-service: remove taining templates (if applicable) @kamilabaron-palucka
  - [ ] UI: provide appropriate messages depending on sw-spec state @chrisj
