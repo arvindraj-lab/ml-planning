@@ -3,7 +3,7 @@ name: L2 Support Question template
 about: The support question template to be used by L2 team
 title: "[<customer name>] - [CSP Case #<id>] - <title>"
 labels: L2 - Salesforce, question
-assignees: barbara-kowalczyk
+assignees: ''
 
 ---
 

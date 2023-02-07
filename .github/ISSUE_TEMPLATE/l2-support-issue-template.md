@@ -2,8 +2,8 @@
 name: L2 Support issue template
 about: The support issue template to be used by L2 team
 title: "[<customer name>] - [CSP Case #<id>] - <title>"
-labels: L2 - Salesforce, bug, severity-high
-assignees: barbara-kowalczyk
+labels: bug, L2 - Salesforce, severity-high
+assignees: ''
 
 ---
 

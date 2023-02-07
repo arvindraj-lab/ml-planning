@@ -1,8 +1,9 @@
 ---
 name: WML deprecate/remove software specification on Cloud
-about: This template should be used to track the work for a deprecating/removing WML sw-specification
+about: This template should be used to track the work for a deprecating/removing WML
+  sw-specification
 title: ''
-labels: wml
+labels: ''
 assignees: ''
 
 ---
@@ -17,4 +18,4 @@ assignees: ''
  - [ ] WS Notebook team: [TBD add task if needed]
  - [ ] Deployment service: @nrabakav
  - [ ] Documentation: update WML docs @julianne-forgo
- - [ ] QA: @dennis-windsor 
+ - [ ] QA: @dennis-windsor
