@@ -3,7 +3,7 @@ name: 'Spaces Asset Onboarding '
 about: 'General template for onboarding new asset type to Spaces. '
 title: Spaces Onboarding for <New Asset Type>
 labels: WML-UI
-assignees: chrisj, ychien, nickmazz
+assignees: chrisj, nickmazz, ychien
 
 ---
 
@@ -27,4 +27,8 @@ assignees: chrisj, ychien, nickmazz
 - [ ] update supported asset type list for export / import in wml-main, for reference:
   - https://github.ibm.com/WML/wml-main/blob/master/src/routes/components/Space/routes/components/SpaceImportSummary/SpaceImportSummary.js#L84
 
-- [ ] communicate to Spaces API team for awareness, FYI @ rafal-bigaj @ Kamil-Huras1
+- [x] communicate to Spaces API team for awareness, FYI @ rafal-bigaj @ Kamil-Huras1
+
+- [x] communicate to Spaces design team for awareness, FYI @thollifi @liw
+
+- [x] communicate to Spaces QA team for awareness, FYI @elainep @Dennis-Windsor
