@@ -2,8 +2,8 @@
 name: WML swagger enhancement request
 about: This template should be used to request a change to the WML swagger documentation
 title: ''
-labels: 'WML-Swagger'
-assignees: 'julianpayne'
+labels: WML-Swagger
+assignees: julianpayne
 
 ---
 

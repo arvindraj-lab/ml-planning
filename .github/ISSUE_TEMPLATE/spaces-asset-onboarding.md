@@ -28,8 +28,10 @@ assignees: chrisj, nickmazz, ychien
 
 - [ ] update jobs service constants and delegated end-points specific to spaces support -- **to be completed by Jobs team**, FYI @ van-zhou
 
-- [x] communicate to Spaces API team for awareness, FYI @ rafal-bigaj @ Kamil-Huras1
+- [ ] communicate to Spaces API team for awareness, FYI @ rafal-bigaj @ Kamil-Huras1
 
-- [x] communicate to Spaces design team for awareness, FYI @ thollifi @ liw
+- [ ] communicate to Docs team for doc updates, FYI @Przemyslaw-Czuba @julianne-forgo
 
-- [x] communicate to Spaces QA team for awareness, FYI @ elainep @ Dennis-Windsor
+- [ ] communicate to Spaces design team for awareness, FYI @ thollifi @ liw
+
+- [ ] communicate to Spaces QA team for awareness, FYI @ elainep @ Dennis-Windsor
