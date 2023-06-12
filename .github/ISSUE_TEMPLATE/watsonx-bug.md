@@ -8,5 +8,4 @@ assignees: aronovic,julianpayne
 
 ### `watsonx` bug template
 
-Where possible please provide the details that will
-allow the bug to be re-produced by the development team.
+Where possible please provide the details that will allow the bug to be re-produced by the development team.
