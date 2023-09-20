@@ -1,7 +1,7 @@
 ---
 name: WML global asset registration update request for CP4D
 about: This template should be used to request a new version of the global asset registration to be shipped in CP4D.
-title: ''
+title: '[wml-asset-registration] update request for CP4D'
 labels: wml-asset-registration,CPD
 assignees: Marek-Oszajec,julianpayne
 
