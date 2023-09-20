@@ -12,7 +12,7 @@ assignees: Marek-Oszajec,julianpayne
 - Global asset registration image: `<must_be_set>`
 - CP4D version: `<must_be_set>`
 
-### Example
+**Example:**
 
-- Global asset registration image: `wml-asset-registration:2.2.110`
-- CP4D version: `4.8.0`
+- Global asset registration image: `wml-asset-registration:X.X.XXX`
+- CP4D version: `X.X.X`
