@@ -1,5 +1,5 @@
 ---
-name: watsonx bug template
+name: WatsonX Bug Template
 about: This is for bug reports for watsonx.
 title: ''
 labels: watsonx,bug
