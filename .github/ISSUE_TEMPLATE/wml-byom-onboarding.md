@@ -16,4 +16,4 @@ assignees: julianpayne
 1. The service ids per environment:
     - test (optional): ...
     - prod: ... (specify what regiosn are to be supported)
-1. Is payload logging (OpenScale integration) required: yes/no
+1. Is payload logging (OpenScale integration) required: yes/no (if not sure put `no`)
