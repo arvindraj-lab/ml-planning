@@ -10,6 +10,7 @@ assignees: julianpayne
 ## `watsonx.ai` BYOM onboarding request on public cloud
 
 1. The service name: ...
+1. The hidden model name: ... (something like `ibm/granite-20b-code-base-v1`)
 1. The APIs being used: (select only those that you require)
     - [ ] text/generation
     - [ ] text/generation_stream
