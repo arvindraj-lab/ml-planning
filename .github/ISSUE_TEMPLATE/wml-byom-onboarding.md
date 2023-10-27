@@ -7,7 +7,7 @@ assignees: julianpayne
 
 ---
 
-## `watsonx.ai` BYOM onboarding request
+## `watsonx.ai` BYOM onboarding request on public cloud
 
 1. The service name: ...
 1. The APIs being used: (select only those that you require)
