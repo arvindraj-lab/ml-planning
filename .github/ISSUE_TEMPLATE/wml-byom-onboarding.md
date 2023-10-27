@@ -1,7 +1,7 @@
 ---
 name: WML BYOM service onboarding request
 about: This template should be used to request to onboard with `watsonx.ai` BYOM
-title: 'watsonx.ai onboarding request'
+title: 'watsonx.ai BYOM onboarding request'
 labels: WML-BYOM,watsonx,watsonx-inference-proxy,watsonx-fm-dev,devOps
 assignees: julianpayne
 
