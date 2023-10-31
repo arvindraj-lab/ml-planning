@@ -24,3 +24,5 @@ assignees: julianpayne
 **Notes:**
 
 1. If you have the `user_id` of the user requesting the call you can also pass it in the `X-WML-User-Id` HTTP header.
+1. `Dev` -> `fvt` and `ys1prod` clusters.
+1. `QA` -> `yp-qa` and `yp-cr` clusters.
