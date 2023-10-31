@@ -15,6 +15,12 @@ assignees: julianpayne
     - [ ] text/generation
     - [ ] text/generation_stream
 1. The service ids per environment: (these service ids must be members of your spaces)
-    - test (optional): ...
-    - prod: ... (specify what regions are to be supported)
+    - Dev: ?
+    - QA (staging): ?
+    - Prod (us-south): ?
+    - Prod (eu-de): ?
 1. Is payload logging (OpenScale integration) required: yes/no (if not sure put `no`)
+
+**Notes:**
+
+1. If you have the `user_id` of the user requesting the call you can also pass it in the `X-WML-User-Id` HTTP header.
