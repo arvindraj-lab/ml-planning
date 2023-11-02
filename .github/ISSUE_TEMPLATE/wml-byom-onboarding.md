@@ -20,6 +20,8 @@ assignees: julianpayne
     - Prod (us-south): ?
     - Prod (eu-de): ?
 1. Is payload logging (OpenScale integration) required: yes/no (if not sure put `no`)
+1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
+   integration will not hit the limits (under normal usage).
 
 **Notes:**
 
