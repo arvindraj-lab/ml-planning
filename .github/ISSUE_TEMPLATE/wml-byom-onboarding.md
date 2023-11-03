@@ -3,7 +3,7 @@ name: WML BYOM service onboarding request
 about: This template should be used to request to onboard with `watsonx.ai` BYOM
 title: 'watsonx.ai BYOM onboarding request'
 labels: WML-BYOM,watsonx,watsonx-inference-proxy,watsonx-fm-dev,devOps,watsonx-byom
-assignees: julianpayne
+assignees: otucker julianpayne
 
 ---
 
@@ -23,18 +23,38 @@ assignees: julianpayne
 1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
    integration will not hit the limits (under normal usage).
 
+### Checklist for production release
+
+**watsonx.ai team:**
+
+- [ ] Model deployed to `yp-qa`
+- [ ] Inference changes deployed to `yp-qa`
+
+**IBM product team:**
+
+- [ ] Flow using the service_id tested on `yp-qa`
+- [ ] Performance testing done on `yp-qa` (within the resource constraints in yp-qa)
+
+**watsonx.ai team:**
+
+- [ ] Model deployed to `prod`
+- [ ] Inference changes deployed to `prod`
+
+**IBM product team:**
+
+- [ ] Flow using the service_id tested on `prod`
+- [ ] Performance testing done on `prod`
+
 **Notes:**
 
 1. If you have the `user_id` of the user requesting the call you can also pass it in the `X-WML-User-Id` HTTP header.
-1. `Dev` -> `fvt` and `ys1prod` clusters.
-1. `QA` -> `yp-qa` and `yp-cr` clusters.
+1. `QA` cluster -> `yp-qa` <https://yp-qa.ml.cloud.ibm.com/>
 
 ## Creating a space or project for testing
 
 The easiest way to create a space or project is to login to the `watsonx` UI with the same user as the `service_id`
 and create the space or project using the UI.
 
-1. `Dev` -> <https://dataplatform.dev.cloud.ibm.com/login?context=wx>
 1. `QA` -> <https://dataplatform.test.cloud.ibm.com/login?context=wx>
 1. `Prod` -> <https://dataplatform.cloud.ibm.com/login?context=wx> (choose the region)
 
@@ -45,6 +65,7 @@ If you want to create the space or project you can find the API docs here:
 
 The mapping for the environments is the same as for the UI:
 
-1. `Dev` -> <https://dataplatform.dev.cloud.ibm.com/>
 1. `QA` -> <https://dataplatform.test.cloud.ibm.com/>
 1. `Prod` -> <https://dataplatform.cloud.ibm.com/>
+
+Cc: @otucker @julianpayne
