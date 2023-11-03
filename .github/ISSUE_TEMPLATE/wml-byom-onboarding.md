@@ -28,3 +28,12 @@ assignees: julianpayne
 1. If you have the `user_id` of the user requesting the call you can also pass it in the `X-WML-User-Id` HTTP header.
 1. `Dev` -> `fvt` and `ys1prod` clusters.
 1. `QA` -> `yp-qa` and `yp-cr` clusters.
+
+## Creating a space or project for testing
+
+The easiest way to create a space or project is to login to the `watsonx` UI with the same user as the `service_id`
+and create the space or project using the UI.
+
+1. `Dev` -> <https://dataplatform.dev.cloud.ibm.com/login?context=wx>
+1. `QA` -> <https://dataplatform.test.cloud.ibm.com/login?context=wx>
+1. `Prod` -> <https://dataplatform.cloud.ibm.com/login?context=wx> (choose the region)
