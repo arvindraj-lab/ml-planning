@@ -57,7 +57,7 @@ and create the space or project using the UI.
 1. `QA` -> <https://dataplatform.test.cloud.ibm.com/login?context=wx>
 1. `Prod` -> <https://dataplatform.cloud.ibm.com/login?context=wx> (choose the region)
 
-If you want to create the space or project you can find the API docs here:
+If you want to create the space or project by API you can find the API docs here:
 
 1. `Spaces` -> <https://pages.github.ibm.com/AILifecycle/cpd-spaces-api/>
 1. `Projects` -> <https://api.dataplatform.cloud.ibm.com/v2/projects/docs/swagger/>
