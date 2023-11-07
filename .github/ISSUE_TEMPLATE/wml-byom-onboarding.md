@@ -14,7 +14,7 @@ assignees: otucker julianpayne
 1. The APIs being used: (select only those that you require)
     - [ ] text/generation
     - [ ] text/generation_stream
-1. The service ids per environment: (these service ids must be members of your spaces)
+1. The service ids per environment: (these service ids must be members of your spaces, see below for how to create a space)
     - QA (staging): ?
     - Prod (us-south): ?
     - Prod (eu-de): ?
