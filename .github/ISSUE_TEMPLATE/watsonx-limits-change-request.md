@@ -15,19 +15,6 @@ assignees: otucker aronovic
 It is possible to reconfigure or disable the following limits for an instance ID:
 
 - `rate_limit`: This limit is specified in terms of the maximum number of requests per second for the instance ID.
-<!---
-- `max_output_tokens`: This is the maximum number of output tokens for an inference request.
-- `max_input_tokens`: This is the maximum number of input tokens for an inference request.
-- `call_time`: This is the maximum duration for an inference request.
-- `token_quota`: Token quota can be either enabled or disabled.
-
-The current limits applied per model and per plan are specified in the `foundation_model_specs` API output:
-
-- Prod Dal: <https://us-south.ml.cloud.ibm.com/ml/v1-beta/foundation_model_specs?version=2023-01-01>.
-- prod Fra: <https://eu-de.ml.cloud.ibm.com/ml/v1-beta/foundation_model_specs?version=2023-01-01>.
-
-See the sections `model_limits`​ and `limits`​ in the output.
--->
 
 #### Request
 
@@ -49,23 +36,6 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
             - [ ] Set value to <...>/second.
             - [ ] Enable with the default value.
             - [ ] Disable.
-<!---
-        - [ ] `max_output_tokens`:
-            - [ ] Set value to <...> tokens.
-            - [ ] Enable with the default value.
-            - [ ] Disable.
-        - [ ] `max_input_tokens`:
-            - [ ] Set value to <...> tokens.
-            - [ ] Enable with the default value.
-            - [ ] Disable.
-        - [ ] `call_time`:
-            - [ ] Set value to <...> seconds.
-            - [ ] Enable with the default value.
-            - [ ] Disable.
-        - [ ] `token_quota`:
-            - [ ] Enable.
-            - [ ] Disable.
--->
 
 ### Request processing (to be completed by the watsonx.ai team)
 
