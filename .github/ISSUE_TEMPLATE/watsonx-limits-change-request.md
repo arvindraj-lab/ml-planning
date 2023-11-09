@@ -71,4 +71,4 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
 1. [ ] Inform the requester of the target dates for the changes to be deployed to prod.
 1. [ ] Close the ticket when the changes have been deployed.
 
-CC: @otucker @aronovic
+CC: @otucker @julianpayne @aronovic
