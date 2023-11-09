@@ -15,6 +15,7 @@ assignees: otucker aronovic
 It is possible to reconfigure or disable the following limits for an instance ID:
 
 - `rate_limit`: This limit is specified in terms of the maximum number of requests per second for the instance ID.
+<!---
 - `max_output_tokens`: This is the maximum number of output tokens for an inference request.
 - `max_input_tokens`: This is the maximum number of input tokens for an inference request.
 - `call_time`: This is the maximum duration for an inference request.
@@ -26,6 +27,7 @@ The current limits applied per model and per plan are specified in the `foundati
 - prod Fra: <https://eu-de.ml.cloud.ibm.com/ml/v1-beta/foundation_model_specs?version=2023-01-01>.
 
 See the sections `model_limits`​ and `limits`​ in the output.
+-->
 
 #### Request
 
@@ -42,11 +44,12 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
    - [ ] Date: ...
 1. For each CRN that is requested for limits reconfiguration or disablement, please specify:
    1. CRN string: ...
-   1. Which limits to set or disable: For limits to set, provide a requested limit value.
-        - [ ] `rate_limit`:
+   1. The limits to set or disable:
+        - `rate_limit`:
             - [ ] Set value to <...>/second.
             - [ ] Enable with the default value.
             - [ ] Disable.
+<!---
         - [ ] `max_output_tokens`:
             - [ ] Set value to <...> tokens.
             - [ ] Enable with the default value.
@@ -62,6 +65,7 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
         - [ ] `token_quota`:
             - [ ] Enable.
             - [ ] Disable.
+-->
 
 ### Request processing (to be completed by the watsonx.ai team)
 
@@ -71,4 +75,4 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
 1. [ ] Inform the requester of the target dates for the changes to be deployed to prod.
 1. [ ] Close the ticket when the changes have been deployed.
 
-CC: @otucker @julianpayne @aronovic
+CC: @otucker @aronovic @julianpayne
