@@ -6,7 +6,7 @@ labels: watsonx-limits-change-request,watsonx-fm-dev,watsonx-inference-proxy,wat
 assignees: otucker aronovic
 ---
 
-## Request to change `watsonx.ai` limits for instance IDs on public cloud
+## Request to change `watsonx.ai` limits for instance IDs in public cloud
 
 ### Request details (to be completed by the requester)
 
@@ -34,16 +34,34 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
 1. Name of customer: ...
 1. Background / reason for the request: ...
 1. Links to associated tickets: ...
-1. Requested date for applying the change: [ ] as soon as possible, or [ ] date: ...
-1. Requested date for removing the change: [ ] indefinite, or [ ] date: ...
+1. Requested date for applying the change:
+   - [ ] As soon as possible.
+   - [ ] Date: ...
+1. Requested date for removing the change:
+   - [ ] Indefinite.
+   - [ ] Date: ...
 1. For each CRN that is requested for limits reconfiguration or disablement, please specify:
    1. CRN string: ...
    1. Which limits to set or disable: For limits to set, provide a requested limit value.
-      - [ ] `rate_limit`: [ ] set value to <...>/second, or [ ] enable with the default value, or [ ] disable.
-      - [ ] `max_output_tokens`: [ ] set value to <...> tokens, or [ ] enable with the default value, or [ ] disable.
-      - [ ] `max_input_tokens`: [ ] set value to <...> tokens, or [ ] enable with the default value, or [ ] disable.
-      - [ ] `call_time`: [ ] set value to <...> seconds, or [ ] enable with the default value, or [ ] disable.
-      - [ ] `token_quota`: [ ] enable, or [ ] disable.
+        - [ ] `rate_limit`:
+            - [ ] Set value to <...>/second.
+            - [ ] Enable with the default value.
+            - [ ] Disable.
+        - [ ] `max_output_tokens`:
+            - [ ] Set value to <...> tokens.
+            - [ ] Enable with the default value.
+            - [ ] Disable.
+        - [ ] `max_input_tokens`:
+            - [ ] Set value to <...> tokens.
+            - [ ] Enable with the default value.
+            - [ ] Disable.
+        - [ ] `call_time`:
+            - [ ] Set value to <...> seconds.
+            - [ ] Enable with the default value.
+            - [ ] Disable.
+        - [ ] `token_quota`:
+            - [ ] Enable.
+            - [ ] Disable.
 
 ### Request processing (to be completed by the watsonx.ai team)
 
