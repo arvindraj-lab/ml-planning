@@ -14,8 +14,8 @@ assignees: otucker julianpayne
    1. name: ... (something like `ibm/granite-20b-code-base-v1`) (note that these models need to be deployed to the GPU cluster separately)
    1. DCT #: ...
 1. The APIs being used: (select only those that you require)
-    - [ ] text/generation
-    - [ ] text/generation_stream
+    - [ ] text/generation (generation/text)
+    - [ ] text/generation_stream (generation/text_stream)
 1. The service ids per environment: (these service ids must be members of your spaces, see below for how to create a space)
     - QA (staging): ?
     - Prod (us-south): ?
