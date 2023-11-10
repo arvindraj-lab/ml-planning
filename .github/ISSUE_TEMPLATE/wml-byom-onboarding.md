@@ -24,22 +24,30 @@ assignees: otucker julianpayne
 1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
    integration will not hit the limits (under normal usage).
 
-### Checklist for production release
+## Checklist for production release
+
+### QA checklist `yp-qa`
 
 **watsonx.ai team:**
 
-- [ ] Model deployed to `yp-qa`
-- [ ] Inference changes deployed to `yp-qa`
+- [ ] Model deployed by devops
+- [ ] Model added to the models list
+- [ ] Service ids added to the secret
+- [ ] Inference changes deployed
 
 **IBM product team:**
 
 - [ ] Flow using the service_id tested on `yp-qa`
-- [ ] Performance testing done on `yp-qa` (within the resource constraints in yp-qa)
+- [ ] Performance testing done on `yp-qa` (within the resource constraints in `yp-qa`)
+
+### Production checklist
 
 **watsonx.ai team:**
 
-- [ ] Model deployed to `prod`
-- [ ] Inference changes deployed to `prod`
+- [ ] Model deployed by devops
+- [ ] Model added to the models list
+- [ ] Service ids added to the secret
+- [ ] Inference changes deployed
 
 **IBM product team:**
 
