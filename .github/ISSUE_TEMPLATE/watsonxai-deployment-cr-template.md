@@ -23,10 +23,16 @@ Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-run
 
 |Service Name|Image Name|Version|Remarks|
 |----------------|----------------|---------|-----|
-|WML Inference Proxy|wx-inference-proxy| x.x.x |Dallas and Frankfurt DC Only|
-|Watsonx.ai Router|fmaas-router| x.x.x |Washington and Frankfurt DC only|
-|Watsonx.ai TGIS|fmaas-runtime-wisdom-ansible| x.x.x |Washington and Frankfurt DC only|
-|COS Driver|N/A| x.x.x |Washington and Frankfurt DC only|
+|watsonx inference proxy       | wx-inference-proxy            | x.x.x | Dallas and Frankfurt DC Only |
+|fmaas-router                  | fmaas-router                  | x.x.x | Washington and Frankfurt DC only |
+|foundation models             | fmaas-runtime-wisdom-ansible  | x.x.x | Washington and Frankfurt DC only |
+|bamdev-cais                   | pod-coordinator               | x.x.x | Washington and Frankfurt DC only |
+|bamdev-cais                   | caikit-nlp-service-trainer    | x.x.x | Washington and Frankfurt DC only |
+|caikit-runtime-stack-operator | caikit-runtime-stack-operator | x.x.x | Washington and Frankfurt DC only |
+|fmaas-caikit-inf-prompt-tunes | caikit-nlp-service-trainer    | x.x.x | Washington and Frankfurt DC only |
+|fmaas-caikit-trainer          | caikit-nlp-service-trainer    | x.x.x | Washington and Frankfurt DC only |
+|fmaas-mt                      | lifecycle-manager-service     | x.x.x | Washington and Frankfurt DC only |
+|fmaas-mt                      | trainer-v2-service            | x.x.x | Washington and Frankfurt DC only |
 
 ## Other Tasks
 
