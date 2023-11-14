@@ -1,0 +1,63 @@
+### watsonx embed Intake Form
+Intake form to declare intended dependency on watsonx.ai. Required for all teams planning a release in production. This form is not a guarantee of commitment. 
+
+Please provide the following information to the best of your ability as you begin planning. 
+
+### Delivery type:
+application will call watsonx.ai via watsonx.ai -
+[ ] IBM Cloud
+[ ] IBM on-prem
+and application is hosted on: 
+
+### Release type: 
+[] Experimental/Tech Preview
+[] Beta
+[] GA
+
+### Beta API Disclaimer:
+
+Our current watsonx.ai API is in beta, and does not have version dates, etc. The GA API is on the roadmap. As such breaking changes will be documented and communicated to teams with a committed dependency on watsonx.ai via 
+
+[] Team has been made aware & consented to use of watsonx.ai beta API with potential breaking changes, which will be documented by watsonx team
+
+### Model
+Model Name:
+
+[Full name of model team intends to use] i.e granite.13b.chat.v1 and DCT clearance
+
+Model is: 
+
+[] existing model on watsonx.ai API - public 
+
+[] new base model on watsonx.ai roadmap - public
+
+[] fine-tuned model for just your product (hidden)
+
+[] fine-tuned model used by other IBM product (hidden)
+
+
+If model is hidden - fill out this Github ticket and follow these instructions for relevant information needed for supporting hiding model.
+
+for multiple models, please copy Model section and fill in for each model.
+
+### Capacity Usage:
+
+
+Provide usage projections for feature for 1Q - 4Q of current year after GA, 1H/2H of next year. Used to calculate GPU requirements
+
+#### Model:   
+
+#### Usage: [# of users, tokens per month, api requests per month, peak api usage, on quarterly basis out for 1 calendar year] 
+
+#### Data center: 
+[date center requested: Dallas, Frankfurt, for each model]
+
+
+### Product Feature GA Date (proposed): 
+Date: 
+  
+  This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams.  proposed by product team & dependent on watsonx ship date
+
+
+### Description of feature
+
