@@ -23,6 +23,11 @@ assignees: otucker julianpayne
 1. Is payload logging (OpenScale integration) required: yes/no (if not sure put `no`)
 1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
    integration will not hit the limits (under normal usage).
+1. Your target date for delivery to production: dd MMM yyyy
+   Notes:
+      1. This should be an estimate, in reality this will depend on the `watsonx.ai` schedule as well as Cloud freezes etc.
+      1. The service requesting this model is responsible for all testing (in `yp-qa` and `prod`) so ensure that adequate time is left for testing
+        and any necessary updates in cloud (updates happen at a weekly cadence).
 
 ## Checklist for production release
 
