@@ -4,7 +4,7 @@ about: This template should be used to request to embed watsonx.ai
 title: 'watsonx.ai embed intake form'
 labels: watsonx
 assignees: demiajayi otucker 
-
+---
 
 ### watsonx.ai embed intake
 All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon as possible. Please fill this out to the best of your knowledge. Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
