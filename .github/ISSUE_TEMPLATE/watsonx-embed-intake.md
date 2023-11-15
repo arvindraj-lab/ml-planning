@@ -44,6 +44,7 @@ Our current watsonx.ai API is in beta, and does not have version dates, etc. The
 #### Model:
 
 Full name of model team intends to use: [example granite.13b.chat-v1 ]
+DCT number:
 
 Model is: 
 - [ ] existing model on watsonx.ai API - public 
@@ -62,8 +63,9 @@ Model is:
 - add the github links to this issue.
 
 
-Please specify for each model to be used
-Fill the following for each model that will be used
+Please specify  the above for each model to be used
+
+
 Note: relevant model clearances are needed and are the responsibility of the product team to check and obtain necessary approvals with model owners in DCT
 
 
