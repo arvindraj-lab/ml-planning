@@ -1,7 +1,7 @@
 ---
 name: watsonx.ai embed intake form
 about: This template should be used to request to embed watsonx.ai 
-title: 'watsonx.ai embed intake form'
+title: 'watsonx.ai embed intake form for [product name]'
 labels: watsonx
 assignees: demi-ajayi otucker 
 ---
