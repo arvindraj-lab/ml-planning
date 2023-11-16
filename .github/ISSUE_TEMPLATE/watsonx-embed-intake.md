@@ -7,7 +7,7 @@ assignees: demi-ajayi
 ---
 
 ### watsonx.ai embed intake
-All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning. 
+All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning your feature release. 
 
 You may not have all information needed right now, but submit this form so we can get started. We will add relevant information as it becomes available. 
 
@@ -61,6 +61,8 @@ Model is:
 
 - [ ] fine-tuned model used by other IBM product (hidden)
 
+copy section 6 for each model used in this feature. 
+
 #### 7. If model(s) is/are hidden: 
 - fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request) 
 - follow [these instructions](https://ibm.ent.box.com/notes/1349751157331?s=bbp3rbdt29q81mqpci3ylopz43t1zc2b) for relevant information needed for supporting hiding model.
@@ -76,19 +78,27 @@ Note: relevant model clearances are needed and are the responsibility of the pro
 
 #### 8. Capacity Usage:
 
-Provide usage projections for each model used. This is used to requirements
+Provide usage projections for each model used in this feature. This is used for GPU allocation & very important
+
+
+
+Provide on a quarterly basis for next 4 quarters from release:
+
+Provide accessible link to calculations - 
 
 - Model:
+- Data center : [date center requested] 
 
-- Usage for model [ name]:
-provide projection of
+Output:
+ - projected input tokens per month per model for this use case: 
+ - peak api requests/hour: (if any surge usage is expected)
+
+input:
 -  Number of users:
--  tokens per month
 -  api requests per month
--  peak api usage
-on quarterly basis out for 1 calendar year
-Provide link to calculations - 
-- Data center : [date center requested] for [model]
+-  tokens per api request per user
+
+copy section 8 for each model used in this feature.
 
 #### 9. Performance
 
