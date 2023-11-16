@@ -29,8 +29,7 @@ assignees: otucker julianpayne
 1. Your target date for delivery to production: _dd MMM yyyy_
    Notes:
       1. This should be an estimate, in reality this will depend on the `watsonx.ai` schedule as well as Cloud freezes etc.
-      1. The service requesting this model is responsible for all testing (in `yp-qa` and `prod`) so ensure that adequate time is left for testing
-        and any necessary updates in cloud (updates happen at a weekly cadence).
+      1. The service requesting this model is responsible for all testing (in `yp-qa` and `prod`) so ensure that adequate time is left for testing and any necessary updates in cloud (updates happen at a weekly cadence).
       1. The `watsonx.ai` team will provide a scheduled date once the effort has been sized.
 
 ## Checklist for production release
