@@ -44,7 +44,7 @@ For:
 All IBM teams are highy encouraged to go into production with the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
 - [ ] Our product will use the Python SDK for our release
-- [ ] Our product will use the Beta API for our release and are aware there will be breaking changes for GA and other releases. 
+- [ ] Our product will use the Beta API for our release and are aware there will be breaking changes for the GA and potentially for other updates before GA. 
 
 Please have your developers join our slack channel for updates: #delivering-llms-in-product-in-2023
 
