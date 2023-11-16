@@ -30,8 +30,8 @@ product is hosted on:
 
 #### 4. Release type:
 - [ ] Internal Experimenting - Please use BAM 
-- [ ] Private Preview (
-- [ ] Public Preview (Beta)
+- [ ] Private Preview 
+- [ ] Public Preview 
 - [ ] GA
 
 For:
