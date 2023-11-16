@@ -9,7 +9,7 @@ assignees: demi-ajayi
 ### watsonx.ai embed intake
 All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning. 
 
-You may not have all information needed right now, but submit this form so we can get started. 
+You may not have all information needed right now, but submit this form so we can get started. We will add relevant information as it becomes available. 
 
 Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
 
