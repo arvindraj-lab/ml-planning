@@ -87,24 +87,24 @@ Provide on a quarterly basis for next 4 quarters from release:
 Provide accessible link to calculations - 
 
 - Model:
-- Data center : [date center requested] 
+- Data center:
 
 Output:
  - projected input tokens per month per model for this use case: 
- - peak api requests/hour: (if any surge usage is expected)
+ 
 
 input:
 -  Number of users:
--  api requests per month
--  tokens per api request per user
+-  api requests per month:
+-  tokens per api request per user:
 
 copy section 8 for each model used in this feature.
 
 #### 9. Performance
 
-[Latency requirements if applicable]
+Latency requirements if applicable:
 
-[rate limits requirements if applicable]
+rate limits requirements if applicable:
 
 
 #### 10. Aha!
