@@ -9,7 +9,7 @@ assignees: Demi-Ajayi
 ### watsonx.ai embed intake
 All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning your feature release. 
 
-You may not have all information needed right now, but submit this form so we can get started. We will add relevant information as it becomes available. 
+You may not have all information needed right now, but please submit this form so we can get started. We will add relevant information as it becomes available. 
 
 Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
 
@@ -39,12 +39,16 @@ For:
 - [ ] external client use (product release)
 - [ ] external client engagement (client engagement)
 
-
 #### 5. watsonx.ai Python SDK
 
-All IBM teams going into production must use the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
+All IBM teams are highy encouraged to go into production with the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
-- [ ] Our product is using the SDK for our release
+- [ ] Our product will use the Python SDK for our release
+- [ ] Our product will use the Beta API for our release and are aware there will be breaking changes for GA and other releases. 
+
+Please have your developers join our slack channel for updates: #delivering-llms-in-product-in-2023
+
+
 
 #### 6. Model:
 
@@ -116,8 +120,9 @@ Please be sure it includes (or include below):
 
 
 #### 11. Next steps
+Please join our slack channel: (search)- #delivering-llms-in-product-in-2023 to stay tuned for important updates 
 
 Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report). 
 We'll be in touch to schedule your intake meeting.
-See our full process and policy here.  
+Learn more about our full process [here.](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook)  
 
