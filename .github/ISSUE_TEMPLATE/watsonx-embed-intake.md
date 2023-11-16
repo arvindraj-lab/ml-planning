@@ -13,13 +13,13 @@ You may not have all information needed right now, but submit this form so we ca
 
 Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
 
-#### Product team:
+#### 1. Product team:
 
-#### Product proposed Feature GA Date: 
+#### 2. Product proposed Feature GA Date: 
 
  This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams. 
 
-#### Delivery type:
+#### 3. Delivery type:
 
 calling 
 
@@ -28,7 +28,7 @@ calling
 
 product is hosted on: 
 
-#### Release type:
+#### 4. Release type:
 - [ ] Internal Experimenting - Please use BAM 
 - [ ] Private Preview (
 - [ ] Public Preview (Beta)
@@ -40,13 +40,13 @@ For:
 - [ ] external client engagement (client engagement)
 
 
-#### watsonx.ai Python SDK
+#### 5. watsonx.ai Python SDK
 
 All IBM teams going into production must use the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
 - [ ] Our product is using the SDK for our release
 
-#### Model:
+#### 6. Model:
 
 Full name of model team intends to use: [example granite.13b.chat-v1 ]
 
@@ -61,7 +61,7 @@ Model is:
 
 - [ ] fine-tuned model used by other IBM product (hidden)
 
-- [ ] If model(s) is/are hidden 
+#### 7. If model(s) is/are hidden: 
 - fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request) 
 - follow [these instructions](https://ibm.ent.box.com/notes/1349751157331?s=bbp3rbdt29q81mqpci3ylopz43t1zc2b) for relevant information needed for supporting hiding model.
 - add the github links to this issue.
@@ -74,7 +74,7 @@ Note: relevant model clearances are needed and are the responsibility of the pro
 
 
 
-#### Capacity Usage:
+#### 8. Capacity Usage:
 
 Provide usage projections for each model used. This is used to requirements
 
@@ -90,14 +90,14 @@ on quarterly basis out for 1 calendar year
 Provide link to calculations - 
 - Data center : [date center requested] for [model]
 
-#### Performance
+#### 9. Performance
 
 [Latency requirements if applicable]
 
 [rate limits requirements if applicable]
 
 
-#### Aha!
+#### 10. Aha!
 Provide a link to your corresponding Aha! epic for this feature here:
 
 Please be sure it includes (or include below):
@@ -105,7 +105,7 @@ Please be sure it includes (or include below):
 - Feature Description (with relevant user stories): 
 
 
-#### Next steps
+#### 11. Next steps
 
 Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report). 
 We'll be in touch to schedule your intake meeting.
