@@ -1,13 +1,13 @@
 ---
 name: watsonx.ai embed intake form
 about: This template should be used to request to embed watsonx.ai 
-title: 'watsonx.ai embed intake form for [product name]'
+title: 'watsonx.ai embed intake form for [product name + feature]'
 labels: watsonx
-assignees: demi-ajayi otucker 
+assignees: demi-ajayi 
 ---
 
 ### watsonx.ai embed intake
-All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon as possible. Please fill this out to the best of your knowledge. Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
+All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning. Please fill this out to the best of your knowledge. Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
 
 #### Product team:
 
@@ -25,25 +25,27 @@ calling
 product is hosted on: 
 
 #### Release type:
-- [ ] Experimental/Tech Preview
-- [ ] Beta
+- [ ] Internal Experimenting - Please use BAM 
+- [ ] Private Preview (
+- [ ] Public Preview (Beta)
 - [ ] GA
 
 For:
-- [ ] internal IBM use (by IBmers)
+- [ ] internal IBM use (by IBMers)
 - [ ] external client use (product release)
 - [ ] external client engagement (client engagement)
 
 
-#### Beta API Disclaimer:
+#### watsonx.ai Python SDK
 
-Our current watsonx.ai API is in beta, and does not have version dates, etc. The GA API is on the roadmap. As such breaking changes will be documented and communicated to teams with a committed dependency on watsonx.ai via 
+All IBM teams going into production must use the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
-- [ ] Team has been made aware & consented to use of watsonx.ai beta API with potential breaking changes, which will be documented by watsonx team
+- [ ] Our product is using the SDK for our release
 
 #### Model:
 
 Full name of model team intends to use: [example granite.13b.chat-v1 ]
+
 DCT number:
 
 Model is: 
@@ -54,8 +56,6 @@ Model is:
 - [ ] fine-tuned model for just your product (hidden)
 
 - [ ] fine-tuned model used by other IBM product (hidden)
-
- 
 
 - [ ] If model(s) is/are hidden 
 - fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request) 
@@ -96,14 +96,9 @@ Provide link to calculations -
 #### Aha!
 Provide a link to your corresponding Aha! epic for this feature here:
 
-#### Feature
+Please be sure it includes (or include below):
 
-[Description of feature, with relevant user stories]
-
-
-#### Requirements for Watsonx
-
-Please provide as much detail on requirements on watsonx.ai. If you only have high level requirements, that's fine = we will scope this out together.
+- Feature Description (with relevant user stories): 
 
 
 #### Next steps
