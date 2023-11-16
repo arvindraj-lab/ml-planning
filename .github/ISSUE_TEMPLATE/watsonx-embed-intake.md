@@ -7,7 +7,11 @@ assignees: demi-ajayi
 ---
 
 ### watsonx.ai embed intake
-All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning. Please fill this out to the best of your knowledge. Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
+All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning. 
+
+You may not have all information needed right now, but submit this form so we can get started. 
+
+Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
 
 #### Product team:
 
@@ -103,7 +107,7 @@ Please be sure it includes (or include below):
 
 #### Next steps
 
-Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report[(https://ibm.biz/watsonxai-embed-dependency-report). 
+Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report). 
 We'll be in touch to schedule your intake meeting.
 See our full process and policy here.  
 
