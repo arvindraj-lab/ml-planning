@@ -10,6 +10,9 @@ assignees: otucker julianpayne
 ## `watsonx.ai` BYOM onboarding request on public cloud
 
 1. The service name: ...
+1. The management approval:
+   - [ ] PM: Demi Ajayi @Demi-Ajayi
+   - [ ] Dev: Oronde Tucker @otucker
 1. The hidden model name:
    1. name: ... (something like `ibm/granite-20b-code-base-v1`) (note that these models need to be deployed to the GPU cluster separately)
    1. DCT #: ...
@@ -17,12 +20,17 @@ assignees: otucker julianpayne
     - [ ] text/generation (generation/text)
     - [ ] text/generation_stream (generation/text_stream)
 1. The service ids per environment: (these service ids must be members of your spaces, see below for how to create a space)
-    - QA (staging): ?
+    - QA (staging/yp-qa): ?
     - Prod (us-south): ?
     - Prod (eu-de): ?
-1. Is payload logging (OpenScale integration) required: yes/no (if not sure put `no`)
+1. Is payload logging (OpenScale integration) required: _yes/no_ (if not sure put `no`)
 1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
    integration will not hit the limits (under normal usage).
+1. Your target date for delivery to production: _dd MMM yyyy_
+   Notes:
+      1. This should be an estimate, in reality this will depend on the `watsonx.ai` schedule as well as Cloud freezes etc.
+      1. The service requesting this model is responsible for all testing (in `yp-qa` and `prod`) so ensure that adequate time is left for testing and any necessary updates in cloud (updates happen at a weekly cadence).
+      1. The `watsonx.ai` team will provide a scheduled date once the effort has been sized.
 
 ## Checklist for production release
 
