@@ -36,6 +36,9 @@ Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-run
 
 ## Other Tasks
 
+Copy Watxonx images using [Watsonx_Image_Push_to_Registry](http://jenkins-wml-server1.fyre.ibm.com:8080/job/Watsonx_Image_Push_to_Registry/)
+Copy inference-proxy image using [move_image_fromStaging_toProd](http://jenkins-wml-server1.fyre.ibm.com:8080/job/move_image_fromStaging_toProd/)
+
 ### YPCR
 - [ ] PR: [Description](Link to PR)
 - [ ] PR: [Description](Link to PR)
@@ -52,4 +55,4 @@ For microservices to recover re-deploy previous version https://github.ibm.com/c
 
 ## VA Scan Results
 
-Link to VA Scan: URL
+Jenkins VA Scan: http://jenkins-wml-server1.fyre.ibm.com:8080/job/WML-Image-Vulnerability-Check-CR/
