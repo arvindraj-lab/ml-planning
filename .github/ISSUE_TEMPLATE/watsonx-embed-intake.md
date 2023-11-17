@@ -39,7 +39,8 @@ For:
 - [ ] external client use (product release)
 - [ ] external client engagement (client engagement)
 
-#### 5. watsonx.ai Python SDK
+#### 5. watsonx.ai API & Python SDK
+
 
 All IBM teams are highy encouraged to go into production with the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
@@ -48,11 +49,14 @@ All IBM teams are highy encouraged to go into production with the [watsonx.ai Py
 
 Please have your developers join our slack channel for updates: #delivering-llms-in-product-in-2023
 
+API endpoint used:
 
+- [ ] text/generation (generation/text)
+- [ ] text/generation_stream (generation/text_stream)
 
 #### 6. Model:
 
-Full name of model team intends to use: [example granite.13b.chat-v1 ]
+Full name of model team intends to use (example granite.13b.chat-v1):
 
 DCT number:
 
@@ -79,8 +83,14 @@ Please specify  the above for each model to be used
 Note: relevant model clearances are needed and are the responsibility of the product team to check and obtain necessary approvals with model owners in DCT
 
 
+#### 8. Tracking Usage
 
-#### 8. Capacity Usage:
+Service ID: 
+
+Please provide your IBM Cloud account info so we can whitelist your use of our watsonx.ai for cost tracking 
+
+
+#### 9. Usage Projection
 
 Provide usage projections for each model used in this feature. This is used for GPU allocation & very important
 
@@ -102,16 +112,16 @@ input:
 -  api requests per month:
 -  tokens per api request per user:
 
-copy section 8 for each model used in this feature.
+copy section 9 for each model used in this feature.
 
-#### 9. Performance
+#### 10. Performance
 
 Latency requirements if applicable:
 
 rate limits requirements if applicable:
 
 
-#### 10. Aha!
+#### 11. Aha!
 Provide a link to your corresponding Aha! epic for this feature here:
 
 Please be sure it includes (or include below):
@@ -119,7 +129,7 @@ Please be sure it includes (or include below):
 - Feature Description (with relevant user stories): 
 
 
-#### 11. Next steps
+#### 12. Next steps
 Please join our slack channel: (search)- #delivering-llms-in-product-in-2023 to stay tuned for important updates 
 
 Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report). 
