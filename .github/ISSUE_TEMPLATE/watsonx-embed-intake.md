@@ -86,7 +86,7 @@ Note: relevant model clearances are needed and are the responsibility of the pro
 #### 8. Tracking Usage
 
 Service ID: 
-
+WML Instance(s):
 Please provide your IBM Cloud account info so we can whitelist your use of our watsonx.ai for cost tracking 
 
 
