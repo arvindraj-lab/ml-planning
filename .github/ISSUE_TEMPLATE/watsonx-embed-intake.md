@@ -7,40 +7,42 @@ assignees: Demi-Ajayi
 ---
 
 ### watsonx.ai embed intake
-All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning your feature release. 
 
-You may not have all information needed right now, but please submit this form so we can get started. We will add relevant information as it becomes available. 
+All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning your feature release.
 
-Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests. 
+You may not have all information needed right now, but please submit this form so we can get started. We will add relevant information as it becomes available.
+
+Filling this form is a not a commitment from the watsonx.ai but allows us to track incoming requests.
 
 #### 1. Product team:
 
-#### 2. Product proposed Feature GA Date: 
+#### 2. Product proposed Feature GA Date:
 
- This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams. 
+This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams.
 
 #### 3. Delivery type:
 
-calling 
+calling
 
-- [ ] watsonx.ai on IBM Cloud 
+- [ ] watsonx.ai on IBM Cloud
 - [ ] watsonx.ai on-prem
 
-product is hosted on: 
+product is hosted on:
 
 #### 4. Release type:
-- [ ] Internal Experimenting - Please use BAM 
-- [ ] Private Preview 
-- [ ] Public Preview 
+
+- [ ] Internal Experimenting - Please use BAM
+- [ ] Private Preview
+- [ ] Public Preview
 - [ ] GA
 
 For:
+
 - [ ] internal IBM use (by IBMers)
 - [ ] external client use (product release)
 - [ ] external client engagement (client engagement)
 
 #### 5. watsonx.ai API & Python SDK
-
 
 All IBM teams are highy encouraged to go into production with the [watsonx.ai Python SDK](https://ibm.github.io/watson-machine-learning-sdk/install.html) until the GA of the watsonx.ai APIs (currently in beta).
 
@@ -60,8 +62,9 @@ Full name of model team intends to use (example granite.13b.chat-v1):
 
 DCT number:
 
-Model is: 
-- [ ] existing model on watsonx.ai API - public 
+Model is:
+
+- [ ] existing model on watsonx.ai API - public
 
 - [ ] new base model on watsonx.ai roadmap - public
 
@@ -69,48 +72,44 @@ Model is:
 
 - [ ] fine-tuned model used by other IBM product (hidden)
 
-copy section 6 for each model used in this feature. 
+copy section 6 for each model used in this feature.
 
-#### 7. If model(s) is/are hidden: 
-- fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request) 
+#### 7. If model(s) is/are hidden:
+
+- fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request)
 - follow [these instructions](https://ibm.ent.box.com/notes/1349751157331?s=bbp3rbdt29q81mqpci3ylopz43t1zc2b) for relevant information needed for supporting hiding model.
 - add the github links to this issue.
 
-
 Please specify  the above for each model to be used
-
 
 Note: relevant model clearances are needed and are the responsibility of the product team to check and obtain necessary approvals with model owners in DCT
 
-
 #### 8. Tracking Usage
 
-Service ID: 
+Service ID:
 WML Instance(s):
-Please provide your IBM Cloud account info so we can whitelist your use of our watsonx.ai for cost tracking 
-
+Please provide your IBM Cloud account info so we can whitelist your use of our watsonx.ai for cost tracking
 
 #### 9. Usage Projection
 
 Provide usage projections for each model used in this feature. This is used for GPU allocation & very important
 
-
-
 Provide on a quarterly basis for next 4 quarters from release:
 
-Provide accessible link to calculations - 
+Provide accessible link to calculations -
 
 - Model:
 - Data center:
 
 Output:
- - projected input tokens per month per model for this use case: 
- 
 
-input:
--  Number of users:
--  api requests per month:
--  tokens per api request per user:
+- projected input tokens per month per model for this use case: 
+
+Input:
+
+- Number of users:
+- api requests per month:
+- tokens per api request per user:
 
 copy section 9 for each model used in this feature.
 
@@ -120,19 +119,20 @@ Latency requirements if applicable:
 
 rate limits requirements if applicable:
 
-
 #### 11. Aha!
+
 Provide a link to your corresponding Aha! epic for this feature here:
 
 Please be sure it includes (or include below):
 
 - Feature Description (with relevant user stories): 
 
-
 #### 12. Next steps
+
 Please join our slack channel: (search)- #delivering-llms-in-product-in-2023 to stay tuned for important updates 
 
-Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report). 
+Thanks for filling this form. The watsonx.ai embed will review this issue and your Aha! epic and track the dependency in our [dependency report](https://ibm.biz/watsonxai-embed-dependency-report).
 We'll be in touch to schedule your intake meeting.
 Learn more about our full process [here.](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook)  
 
+@Demi-Ajayi

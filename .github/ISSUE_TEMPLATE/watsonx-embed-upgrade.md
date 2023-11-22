@@ -5,6 +5,7 @@ title: 'watsonx.ai embed model version upgradge for [product name + model versio
 labels: watsonx embed
 assignees: Demi-Ajayi 
 ---
+
 #### 1. Model used today (include version: e.g granite.13b.chat.v1):
 
 #### 2. Upgrading to model version:  
@@ -20,7 +21,9 @@ assignees: Demi-Ajayi
 
 #### 5. Target date of go-live in production:
 
-
 #### 6. Transition period
+
 - [ ] We need to support both models (and workloads) for a period before we go-live
 - Migration window [start/end]:
+
+@Demi-Ajayi
