@@ -19,11 +19,15 @@ assignees: Demi-Ajayi
 - [ ] we are expecting a change in workload from current estimates
 - new workload estimates (input tokens per month):
 
-#### 5. Target date of go-live in production:
+#### 5. What is your A/B testing plan including environment:
 
-#### 6. Transition period
+#### 6. Target date of go-live in production:
 
-- [ ] We need to support both models (and workloads) for a period before we go-live
+- Note the "go-live in production" date must be before the model  withdrawal date as determined by the model deprecation process.
+
+#### 7. Transition period
+
+- [ ] We need to support both models (and workloads) for a period as we go-live
 - Migration window [start/end]:
 
 @Demi-Ajayi
