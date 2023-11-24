@@ -24,18 +24,24 @@ For each model ID requested for defining or chaning a lifecycle plan, specify th
 
 Fill out only the stages that are requested to be included in the lifecycle plan for this model.
 
+1. [ ] **Availability stage specification**:  
+   {This section specifies a general availability period for the model.}
+   1. Start date: ...  
+      {Date when the general availability period starts.}
 1. [ ] **Deprecation stage specification**:  
-   {This section specifies a deprecation period for the model, where the model is active without restrictions and a warning is returned for calls for this model. This stage must be followed by at least one of the replacement stage or the inactive stage.}
+   {This section specifies a deprecation period for the model, where the model is available without restrictions and a warning is returned for calls for this model. This stage must be followed by at least one of the replacement stage or the deactivation stage.}
    1. Start date: ...  
       {Date when the deprecation period starts.}
+   1. List of recommended model IDs [optional]: ...  
+      {Comma separated list of IDs of other models which are recommended to be used instead of this model.}
 1. [ ] **Replacement stage specification**:  
-   {This section specifies a replacement period for the model, where the model is no longer active, calls that can be rerouted to a replacement model are rerouted with a returned warning, and calls that cannot be rerouted to a replacement model are rejected. The model can be removed from the back-end environment after this period starts. The back-end environment must have the replacement model deployed and available at the beginning of this period.}
+   {This section specifies a replacement period for the model, where the model is no longer available, calls that can be rerouted to a replacement model are rerouted with a returned warning, and calls that cannot be rerouted to a replacement model are rejected. The model can be removed from the back-end environment after this period starts. The back-end environment must have the replacement model deployed and available at the beginning of this period.}
    1. Start date: ...  
       {Date when the replacement period starts.}
    1. Replacement model ID: ...  
       {ID of another model to which eligible calls for this model should be rerouted during the replacement period.}
-1. [ ] **Inactive stage specification**:  
-   {This section specifies a date from which the model is not active and not rerouting to another model. The actual model should not be present in the back-end environment from this date (or prior if a replacement period was defined).}
+1. [ ] **Deactivation stage specification**:  
+   {This section specifies a date from which the model is deactivated and not rerouting to another model. The actual model should not be present in the back-end environment from this date (or prior if a replacement period was defined).}
    1. Start date: ...  
       {Date when the inactivity period starts.}
 
