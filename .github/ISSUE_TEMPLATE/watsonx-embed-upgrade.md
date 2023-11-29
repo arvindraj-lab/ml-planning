@@ -31,6 +31,8 @@ assignees: Demi-Ajayi
 - Migration window [start/end]:
 
 #### 8. Model approval:
-- [ ] Our reuse of the model has now been approved
 - DCT number: 
-attach approval email in clearing house dependency & forward email to Anita Chiu
+- [ ] Our reuse of the model has now been approved
+
+
+attach approval email in Clearing House dependency record & forward approval email to Anita Chiu
