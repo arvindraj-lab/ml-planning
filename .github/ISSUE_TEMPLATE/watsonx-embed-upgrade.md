@@ -30,4 +30,7 @@ assignees: Demi-Ajayi
 - [ ] We need to support both models (and workloads) for a period as we go-live
 - Migration window [start/end]:
 
-@Demi-Ajayi
+#### 8. Model approval:
+- [ ] Our reuse of the model has now been approved
+- DCT number: 
+attach approval email in clearing house dependency & forward email to Anita Chiu
