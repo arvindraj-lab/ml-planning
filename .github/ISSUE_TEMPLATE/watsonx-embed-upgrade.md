@@ -2,7 +2,7 @@
 name: watsonx.ai embed model version upgrade request
 about: This template should be used by product teams to request to upgrade to a newer version of a model hosted on watsonx.ai 
 title: 'watsonx.ai embed model version upgradge for [product name + model version]'
-labels: watsonx embed
+labels: watsonx,embed
 assignees: Demi-Ajayi 
 ---
 
