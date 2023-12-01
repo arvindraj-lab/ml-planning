@@ -3,7 +3,7 @@ name: Watsonx.ai limits change request
 about: This template should be used to request a change in the `watsonx.ai` limits for specific instance IDs
 title: 'watsonx.ai limits change request'
 labels: watsonx-limits-change-request,watsonx-fm-dev,watsonx-inference-proxy,watsonx
-assignees: otucker aronovic
+assignees: aronovic,otucker
 ---
 
 ## Request to change `watsonx.ai` limits for instance IDs in public cloud
@@ -20,9 +20,11 @@ It is possible to reconfigure or disable the following limits for an instance ID
 
 To reconfigure or disable specific limits for specified instance IDs, please provide the following information:
 
-1. Name of customer: ...
+1. Name of customer / product: ...
 1. Background / reason for the request: ...
 1. Links to associated tickets: ...
+1. For IBM teams embedding watsonx.ai for product or project use:  
+   - [ ] An [embed intake form](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=Demi-Ajayi&labels=watsonx%2Cembed&template=watsonx-embed-intake.md&title=watsonx.ai+embed+intake+form+for+%5Bproduct+name+%2B+feature%5D) has been submitted, and the requester is following the [watsonx.ai process](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook).
 1. Requested date for applying the change:
    - [ ] As soon as possible.
    - [ ] Date: ...
@@ -45,4 +47,4 @@ To reconfigure or disable specific limits for specified instance IDs, please pro
 1. [ ] Inform the requester of the target dates for the changes to be deployed to prod.
 1. [ ] Close the ticket when the changes have been deployed.
 
-CC: @otucker @aronovic @julianpayne
+CC: @otucker @aronovic @julianpayne @Demi-Ajayi
