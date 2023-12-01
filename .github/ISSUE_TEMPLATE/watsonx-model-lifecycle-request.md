@@ -22,8 +22,8 @@ Fill out only the stages that are requested to be included in the lifecycle plan
 1. Request type (choose one):
    - [ ] New definition of a lifecycle plan.
    - [ ] Change in an existing lifecycle plan.
-1. [ ] List of recommended model IDs [optional]: ...  
-   {For requests that include deprecation, this is a comma separated list of IDs of other models which are recommended to be used instead of this model.}
+1. [ ] List of recommended alternative model IDs [optional]: ...  
+   {For requests that include deprecation and / or constriction, this is a comma separated list of IDs of alternative models which are recommended to be used instead of this model.}
 1. [ ] **Availability stage specification**:  
    {This section specifies a general availability period for the model.}
    1. Start date: ...  
