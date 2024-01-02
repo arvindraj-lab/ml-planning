@@ -3,7 +3,7 @@ name: Watsonx.ai model lifecycle request
 about: This template should be used to request a definition of lifecycle plans for `watsonx.ai` models, or to request a change in such plans
 title: 'watsonx.ai model lifecycle request'
 labels: watsonx-models-lifecycle-request,watsonx,watsonx-fm-dev
-assignees: aronovic,otucker,pvanrun,tamdavid
+assignees: aronovic,tamdavid,dhmai,chiusm,ingeh
 ---
 
 ## Request to define or change lifecycle plans for `watsonx.ai` models in public cloud
@@ -84,4 +84,4 @@ Completion indication|Model ID|Requested date
 [ ] When all the operations above are complete, close this ticket.  
 [ ] Periodically remove models that are already in the withdrawn stage from the wx-inference-proxy models configuration.  
 
-CC: @otucker @aronovic @pvanrun @tamdavid
+CC: @aronovic @otucker @pvanrun
