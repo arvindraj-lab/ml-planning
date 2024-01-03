@@ -3,7 +3,7 @@ name: Watsonx.ai model lifecycle request
 about: This template should be used to request a definition of lifecycle plans for `watsonx.ai` models, or to request a change in such plans
 title: 'watsonx.ai model lifecycle request'
 labels: watsonx-models-lifecycle-request,watsonx,watsonx-fm-dev
-assignees: aronovic,tamdavid,dhmai,chiusm,ingeh
+assignees: aronovic,tamdavid,dhmai,chiusm,ingeh,michelle-miller
 ---
 
 ## Request to define or change lifecycle plans for `watsonx.ai` models in public cloud
@@ -13,7 +13,7 @@ assignees: aronovic,tamdavid,dhmai,chiusm,ingeh
 1. Context of the request: ...
 1. Links to related issues: ...
 
-For each model ID requested for defining or chaning a lifecycle plan, specify the following details.  
+For each model ID requested for defining or changing a lifecycle plan, specify the following details.  
 Fill out only the stages that are requested to be included in the lifecycle plan for this model.
 
 1. Model ID: ...
@@ -35,7 +35,7 @@ Fill out only the stages that are requested to be included in the lifecycle plan
    1. URL [optional]: ...  
       {URL for documentation that is specific for this model's deprecation stage.}
 1. [ ] **Constriction stage specification**:  
-   {This section specifies a constriction period for the model, where the model is no longer available in the tuning APIs, and is still available in the inferencing APIs. Inference calls for this model return a warning.}
+   {This section specifies a constriction period for the model, where the model is no longer available in the tuning APIs, and is still available in the inference APIs. Inference calls for this model return a warning.}
    1. Start date: ...  
       {Date when the constriction period starts.}
    1. URL [optional]: ...  
