@@ -67,10 +67,22 @@ assignees: otucker julianpayne
 1. If you have the `user_id` of the user requesting the call you can also pass it in the `X-WML-User-Id` HTTP header.
 1. `QA` cluster -> `yp-qa` <https://yp-qa.ml.cloud.ibm.com/>
 
+## Creating service_ids for test and production
+
+The account owner, i.e. the account that is going to pay (depending on finance arrangements) for this use,
+needs to create a service_id for each environment (test, prod-us-south, prod-eu-de) and then use the same
+account to create the space or project as described below.
+
+Creation of a service_id is done by going to the following consoles via the `Access (IAM)` menu in the left hand pane:
+
+1. `QA` -> <https://dataplatform.test.cloud.ibm.com/login?context=wx>
+1. `Prod` -> <https://dataplatform.cloud.ibm.com/login?context=wx>
+
 ## Creating a space or project for testing
 
 The easiest way to create a space or project is to login to the `watsonx` UI with the same user as the `service_id`
-and create the space or project using the UI.
+and create the space or project using the UI. Once the space or project is created then the service_id needs to be
+added as a member.
 
 1. `QA` -> <https://dataplatform.test.cloud.ibm.com/login?context=wx>
 1. `Prod` -> <https://dataplatform.cloud.ibm.com/login?context=wx> (choose the region)
