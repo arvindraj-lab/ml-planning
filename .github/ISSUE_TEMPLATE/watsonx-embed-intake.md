@@ -16,7 +16,7 @@ Filling this form is a not a commitment from the watsonx.ai but allows us to tra
 
 #### 1. Product team:
 
-#### 2. Product proposed Feature GA Date:
+#### 2. Product proposed Feature Release Date:
 
 This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams.
 
@@ -86,15 +86,17 @@ Note: relevant model clearances are needed and are the responsibility of the pro
 
 #### 8. Tracking Usage
 
-Service ID:
-WML Instance(s):
-Please provide your IBM Cloud account info so we can whitelist your use of our watsonx.ai for cost tracking
+BSS ID:
+
+Please follow instructions [here](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook/cost-tracking-getting-started) to provide the correct BSS ID. This will be used to allow-list your product to avoid billing charges in production. 
+
+
 
 #### 9. Usage Projection
 
 Provide usage projections for each model used in this feature. This is used for GPU allocation & very important
 
-Provide on a quarterly basis for next 4 quarters from release:
+Provide on a quarterly basis for next 2 quarters from release:
 
 Provide accessible link to calculations -
 
@@ -136,3 +138,9 @@ We'll be in touch to schedule your intake meeting.
 Learn more about our full process [here.](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook)  
 
 @Demi-Ajayi
+
+#### 13. For watsonx.ai team only
+- [ ] BSS ID validated
+- [ ] Business Case approved
+- [ ] product submitted to allow-list
+
