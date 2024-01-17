@@ -36,7 +36,7 @@ Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-run
 
 ## Other Tasks
 
-Copy Watxonx images using [Watsonx_Image_Push_to_Registry](http://jenkins-wml-server1.fyre.ibm.com:8080/job/Watsonx_Image_Push_to_Registry/)
+Copy Watsonx.ai images using [Watsonx_Image_Push_to_Registry](http://jenkins-wml-server1.fyre.ibm.com:8080/job/Watsonx_Image_Push_to_Registry/)
 Copy inference-proxy image using [move_image_fromStaging_toProd](http://jenkins-wml-server1.fyre.ibm.com:8080/job/move_image_fromStaging_toProd/)
 
 ### YPCR
