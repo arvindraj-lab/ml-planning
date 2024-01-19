@@ -88,6 +88,10 @@ Note: relevant model clearances are needed and are the responsibility of the pro
 
 BSS ID:
 
+watsonx.ai Plan Type (for production associated with BSS ID):
+- [ ] Essentials Plan
+- [ ] Standard Plan 
+
 Please follow instructions [here](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook/cost-tracking-getting-started) to provide the correct BSS ID. This will be used to allow-list your product to avoid billing charges in production. 
 
 
