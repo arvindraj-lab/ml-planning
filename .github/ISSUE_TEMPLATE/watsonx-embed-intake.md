@@ -16,9 +16,15 @@ Filling this form is a not a commitment from the watsonx.ai but allows us to tra
 
 #### 1. Product team:
 
+### 1a. Product Contacts
+- Product Manager
+- Release Manager (required)
+- Development
+
+
 #### 2. Product proposed Feature Release Date:
 
-This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams.
+_This date must be agreed to by watsonx.ai team and product team. We will not commit to a GA date we haven’t approved and been apprised of ahead time with proper dev planning from both teams._
 
 #### 3. Delivery type:
 
@@ -28,6 +34,10 @@ calling
 - [ ] watsonx.ai on-prem
 
 product is hosted on:
+- [ ] IBM Cloud
+- [ ] AWS
+- [ ] Other cloud
+- [ ] on-prem
 
 #### 4. Release type:
 
@@ -49,7 +59,7 @@ All IBM teams are highy encouraged to go into production with the [watsonx.ai Py
 - [ ] Our product will use the Python SDK for our release
 - [ ] Our product will use the Beta API for our release and are aware there will be breaking changes for the GA and potentially for other updates before GA. 
 
-Please have your developers join our slack channel for updates: #delivering-llms-in-product-in-2023
+Please have your developers join our slack channel for updates: #delivering-llms-in-product-in-2024
 
 API endpoint used:
 
@@ -77,6 +87,7 @@ copy section 6 for each model used in this feature.
 #### 7. If model(s) is/are hidden:
 
 - fill out this [Github ticket](https://github.ibm.com/NGP-TWC/ml-planning/issues/new?assignees=julianpayne&labels=WML-BYOM%2Cwatsonx%2Cwatsonx-inference-proxy%2Cwatsonx-fm-dev%2CdevOps&template=wml-byom-onboarding.md&title=watsonx.ai+onboarding+request)
+
 - follow [these instructions](https://ibm.ent.box.com/notes/1349751157331?s=bbp3rbdt29q81mqpci3ylopz43t1zc2b) for relevant information needed for supporting hiding model.
 - add the github links to this issue.
 
@@ -96,20 +107,32 @@ Please follow instructions [here](https://w3.ibm.com/w3publisher/using-llms-ibm/
 
 
 
-#### 9. Usage Projection
+#### 9a. Usage Projection - Background assumptions - Private Preview/Public Preview(Beta)
 
-Provide usage projections for each model used in this feature. This is used for GPU allocation & very important
+_We are making assumptions on tech preview/beta usage, based on past experience from other products. If you have any other validated projections for Private/Public Preview, put them below._
 
-Provide on a quarterly basis for next 2 quarters from release:
+watsonx.ai assumptions: 
+- For Private/Public Preview:
+-   total tokens per month (tpm): ~ <=15m tokens per month
+-   total tokens at peak hour: (.05 * tpm) ~ <=750,000 tokens per hour at peak use
 
-Provide accessible link to calculations -
+
+total tokens per hour =  users per month * Tokens per api request * api requests per month 
+total token at peak hour = total tokens per hour* .05 _assumes peak hourly use is at max 5% of total tokens in a month_ 
+
+
+#### 9b.  Usage Projection at GA - Required for GA - Background assumptions
+
+For GA, provide usage projections for each model used in this feature. This is used for GPU allocation & very important
 
 - Model:
 - Data center:
 
 Output:
 
-- projected input tokens per month per model for this use case: 
+- at GA: projected tokens per month per model for this use case
+- 1Q after GA: projected tokens per month per model for this use case
+
 
 Input:
 
@@ -117,13 +140,14 @@ Input:
 - api requests per month:
 - tokens per api request per user:
 
-copy section 9 for each model used in this feature.
+copy section 9b for each model used in this feature.
+Provide accessible link to calculations -
 
 #### 10. Performance
 
-Latency requirements if applicable:
+- Latency requirements if applicable:
 
-rate limits requirements if applicable:
+- rate limits requirements if applicable:
 
 #### 11. Aha!
 
