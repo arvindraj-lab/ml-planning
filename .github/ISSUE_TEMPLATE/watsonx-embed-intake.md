@@ -68,7 +68,9 @@ API endpoint used:
 
 #### 6. Model:
 
-Full name of model team intends to use (example granite.13b.chat-v1):
+All teams must obtain approval for any model use as detailed [here](https://w3.ibm.com/w3publisher/using-llms-ibm/delivery-playbook/model-and-data-approvals)
+
+Full name of model team intends to use (e.g - granite.13b.chat-v1):
 
 DCT number:
 
