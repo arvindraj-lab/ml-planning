@@ -72,6 +72,8 @@ Full name of model team intends to use (example granite.13b.chat-v1):
 
 DCT number:
 
+Email DCT Approval: (add screenshot)
+
 Model is:
 
 - [ ] existing model on watsonx.ai API - public
