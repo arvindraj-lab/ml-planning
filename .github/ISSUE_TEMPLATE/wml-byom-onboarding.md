@@ -1,9 +1,9 @@
 ---
-name: WML BYOM service onboarding request
+name: Watsonx.ai BYOM service onboarding request
 about: This template should be used to request to onboard with `watsonx.ai` BYOM
 title: 'watsonx.ai onboarding request for ...'
 labels: WML-BYOM,watsonx,watsonx-inference-proxy,watsonx-fm-dev,devOps,watsonx-byom,watsonx-byom-request
-assignees: otucker julianpayne
+assignees: otucker,julianpayne,Demi-Ajayi,aronovic,tamdavid
 
 ---
 
@@ -13,16 +13,16 @@ assignees: otucker julianpayne
 1. The management approval:
    - [ ] PM: Demi Ajayi @Demi-Ajayi
    - [ ] Dev: Oronde Tucker @otucker
-1. The hidden model name:
+1. The custom model name:
    1. name: ... (something like `ibm/granite-20b-code-base-v1`) (note that these models need to be deployed to the GPU cluster separately)
    1. DCT #: ...
 1. The APIs being used: (select only those that you require)
     - [ ] text/generation (generation/text)
     - [ ] text/generation_stream (generation/text_stream)
 1. The service ids per environment: (these service ids must be members of your spaces, see below for how to create a space)
-    - QA (staging/yp-qa): ?
-    - Prod (us-south): ?
-    - Prod (eu-de): ?
+    - QA (staging/yp-qa): ...
+    - Prod (us-south): ...
+    - Prod (eu-de): ...
 1. Is payload logging (OpenScale integration) required: _yes/no_ (if not sure put `no`)
 1. Usage estimates? As limits are applied per WML instance usage estimates are required to verify that the
    integration will not hit the limits (under normal usage).
@@ -39,7 +39,7 @@ assignees: otucker julianpayne
 **watsonx.ai team:**
 
 - [ ] Model deployed by devops
-- [ ] Model added to the models list
+- [ ] Model added to the models DB and consumer added to consumers DB
 - [ ] Service ids added to the secret
 - [ ] Inference changes deployed
 
@@ -53,7 +53,7 @@ assignees: otucker julianpayne
 **watsonx.ai team:**
 
 - [ ] Model deployed by devops
-- [ ] Model added to the models list
+- [ ] Model added to the models DB and consumer added to consumers DB
 - [ ] Service ids added to the secret
 - [ ] Inference changes deployed
 
@@ -96,5 +96,3 @@ The mapping for the environments is the same as for the UI:
 
 1. `QA` -> <https://dataplatform.test.cloud.ibm.com/>
 1. `Prod` -> <https://dataplatform.cloud.ibm.com/>
-
-Cc: @otucker @julianpayne
