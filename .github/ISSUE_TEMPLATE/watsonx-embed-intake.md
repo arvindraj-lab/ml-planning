@@ -1,12 +1,12 @@
 ---
-name: watsonx.ai embed intake form
+name: watsonx.ai infusion intake form
 about: This template should be used to request to embed watsonx.ai 
 title: 'watsonx.ai embed intake form for [product name + feature]'
-labels: watsonx,embed
+labels: watsonx,infusion
 assignees: Demi-Ajayi 
 ---
 
-### watsonx.ai embed intake
+### watsonx.ai infusion intake form
 
 All IBM teams planning to integrate watsonx.ai for production should start with this template, and begin the process as soon you begin planning your feature release.
 
