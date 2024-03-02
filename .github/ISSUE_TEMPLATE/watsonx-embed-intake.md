@@ -8,8 +8,11 @@ assignees: Demi-Ajayi
 
 ### watsonx.ai infusion intake form 
 
+---
+              
 ### Onboarding has been moved to new GitRepo
 https://github.ibm.com/NGP-TWC/watsonx-ai-onboarding/issues
 
-- Go to the new GitRepo and create new intake form with using `watsonx.ai infusion intake form` template
+- Go to new GitRepo and create new intake form with using `watsonx.ai infusion intake form` template
 - The approval process was not changed
+---
