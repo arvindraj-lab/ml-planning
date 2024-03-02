@@ -1,6 +1,6 @@
 ---
 name: watsonx.ai infusion intake form
-about: This template should be used to request to embed watsonx.ai 
+about: (!) Redirect to https://github.ibm.com/NGP-TWC/watsonx-ai-onboarding/issues
 title: 'watsonx.ai embed intake form for [product name + feature]'
 labels: watsonx,infusion
 assignees: Demi-Ajayi 
@@ -11,4 +11,5 @@ assignees: Demi-Ajayi
 ### Onboarding has been moved to new GitRepo
 https://github.ibm.com/NGP-TWC/watsonx-ai-onboarding/issues
 
-- Create new intake form with using `watsonx.ai infusion intake form` template
+- Go to the new GitRepo and create new intake form with using `watsonx.ai infusion intake form` template
+- The approval process was not changed
