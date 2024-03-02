@@ -15,4 +15,5 @@ https://github.ibm.com/NGP-TWC/watsonx-ai-onboarding/issues
 
 - Go to new GitRepo and create new intake form with using `watsonx.ai infusion intake form` template
 - The approval process was not changed
+- For access to this GitRepo contact @siucht
 ---
