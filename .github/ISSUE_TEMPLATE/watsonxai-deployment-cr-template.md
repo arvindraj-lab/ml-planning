@@ -44,6 +44,12 @@ Copy inference-proxy image using [move_image_fromStaging_toProd](http://jenkins-
 - [ ] PR: [Description](Link to PR)
 
 ### Prod
+--- REMOVE Cert Regenerate if not first CR of each month ---
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in WDC
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in FRA
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in TOK
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in LON
+--- REMOVE Cert Regenerate if not first CR of each month ---
 - [ ] PR: [Description](Link to PR)
 - [ ] PR: [Description](Link to PR)
 
