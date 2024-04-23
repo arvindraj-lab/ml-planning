@@ -24,8 +24,9 @@ Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-run
 |Service Name|Image Name|Version|Remarks|
 |----------------|----------------|---------|-----|
 |watsonx inference proxy       | wx-inference-proxy            | x.x.x | All 4 DCs |
-|fmaas-router                  | fmaas-router                  | x.x.x | All 4 DCs |
-|foundation models             | fmaas-runtime-wisdom-ansible  | x.x.x | All 4 DCs |
+|fmaas-embeddings-router       | fmaas-router                  | x.x.x | All 4 DCs |
+|foundation models             | text-generation-inference     | x.x.x | All 4 DCs |
+|foundation models - vllm      | tgis-vllm                     | x.x.x | All 4 DCs |
 |bamdev-cais                   | pod-coordinator               | x.x.x | All 4 DCs |
 |bamdev-cais                   | caikit-nlp-service-trainer    | x.x.x | All 4 DCs |
 |caikit-runtime-stack-operator | caikit-runtime-stack-operator | x.x.x | All 4 DCs |
