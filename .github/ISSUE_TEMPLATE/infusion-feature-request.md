@@ -2,7 +2,7 @@
 name: watsonx.ai infusion feature request
 about: This template is for IBM Product teams with new feature requirements for watsonx.ai
 title: '[product name] + [feature request] watsonx.ai infusion feature request '
-labels: request-pending,infusion
+labels: infusion-request-pending,infusion
 assignees: Demi-Ajayi, otucker
 
 ---
