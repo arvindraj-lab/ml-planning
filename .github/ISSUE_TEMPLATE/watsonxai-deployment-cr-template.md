@@ -41,6 +41,10 @@ Copy Watsonx.ai images using [Watsonx_Image_Push_to_Registry](http://jenkins-wml
 Copy inference-proxy image using [move_image_fromStaging_toProd](http://jenkins-wml-server1.fyre.ibm.com:8080/job/move_image_fromStaging_toProd/)
 
 ### YPCR
+--- REMOVE Cert Regenerate if not first CR of each month ---
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in YS1
+- [ ] Run [Cert Regenerate](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/watsonx-cert-regenerate/) in YPQA
+--- REMOVE Cert Regenerate if not first CR of each month ---
 - [ ] PR: [Description](Link to PR)
 - [ ] PR: [Description](Link to PR)
 
