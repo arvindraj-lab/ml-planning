@@ -13,3 +13,6 @@ assignees: julianpayne
 - [ ] Affects CP4D - <https://cloud.ibm.com/apidocs/machine-learning-cp>
 - [ ] Document fields to be removed
 - [ ] Document new classes or fields, all fields must have a meaningful description as well as an example
+- [ ] Document any documentation changes required in the introduction
+- [ ] Provide a missing example and response
+- [ ] Other...
