@@ -61,14 +61,18 @@ Copy inference-proxy image using [move_image_fromStaging_toProd](http://jenkins-
 Deploy changes using [Deploy-WatsonX-Services](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/Deploy-WatsonX-Services/)
 
 ### Post Deployment Verification
-- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) in DAL - PUT JOB LINK HERE
-- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) in DAL - PUT JOB LINK HERE
-- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) in FRA - PUT JOB LINK HERE
-- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) in FRA - PUT JOB LINK HERE
-- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) in TOK - PUT JOB LINK HERE
-- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) in TOK - PUT JOB LINK HERE
-- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) in LON - PUT JOB LINK HERE
-- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) in LON - PUT JOB LINK HERE
+#### DAL
+- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) - PUT JOB LINK HERE
+- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) - PUT JOB LINK HERE
+#### FRA
+- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) - PUT JOB LINK HERE
+- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) - PUT JOB LINK HERE
+#### TOK
+- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) - PUT JOB LINK HERE
+- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) - PUT JOB LINK HERE
+#### LON
+- [ ] Run [Test All Models](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Models/) - PUT JOB LINK HERE
+- [ ] Run [Test All Prompt Tuning](https://hyc-wml-devops-team-jenkins.swg-devops.com/job/WatsonX-Test-All-Prompt-Tuning/) - PUT JOB LINK HERE
 
 ## Backout Plan
 
