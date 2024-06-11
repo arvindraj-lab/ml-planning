@@ -16,17 +16,16 @@ Assigned Resource:
 
 ## Summary of Changes
 1. 
-
 ## Build and Deployment Details
 
 Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-runbook/blob/master/deployments/WML_Prod_Deploy_Steps.md
-
 |Service Name|Image Name|Version|Remarks|
 |----------------|----------------|---------|-----|
-|watsonx inference proxy       | wx-inference-proxy                     | x.x.x | All 4 DCs |
-|fmaas-embeddings-router       | fmaas-router                           | x.x.x | All 4 DCs |
+|watsonx inference proxy       | wx-inference-proxy                     | x.x.x| All 4 DCs |
+|fmaas-embeddings-router       | quay.io/wxpe/text-gen-router                         | x.x.x | All 4 DCs |
 |FM - tgis                     | quay.io/modh/text-generation-inference | x.x.x | All 4 DCs |
-|FM - vllm                     | quay.io/wxpe/tgis-vllm                 | x.x.x | All 4 DCs |
+|FM - tgis                     | quay.io/wxpe/text-gen-server | x.x.x| All 4 DCs |
+|FM - vllm                     | quay.io/wxpe/tgis-vllm               | x.x.x | All 4 DCs |
 |bamdev-cais                   | pod-coordinator                        | x.x.x | All 4 DCs |
 |bamdev-cais                   | caikit-nlp-service-trainer             | x.x.x | All 4 DCs |
 |caikit-runtime-stack-operator | caikit-runtime-stack-operator          | x.x.x | All 4 DCs |
