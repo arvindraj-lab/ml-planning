@@ -24,7 +24,7 @@ Runbooks and Deployment Steps Details: https://github.ibm.com/cds-devops/NGP-run
 |watsonx inference proxy       | wx-inference-proxy                     | x.x.x| All 4 DCs |
 |fmaas-embeddings-router       | quay.io/wxpe/text-gen-router                         | x.x.x | All 4 DCs |
 |FM - tgis                     | quay.io/modh/text-generation-inference | x.x.x | All 4 DCs |
-|FM - tgis                     | quay.io/wxpe/text-gen-server | x.x.x| All 4 DCs |
+|FM - tgs                      | quay.io/wxpe/text-gen-server | x.x.x| All 4 DCs |
 |FM - vllm                     | quay.io/wxpe/tgis-vllm               | x.x.x | All 4 DCs |
 |bamdev-cais                   | pod-coordinator                        | x.x.x | All 4 DCs |
 |bamdev-cais                   | caikit-nlp-service-trainer             | x.x.x | All 4 DCs |
