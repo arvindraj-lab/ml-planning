@@ -2,7 +2,7 @@
 name: Watsonx.ai CR Template
 about: This template should be used to request a change in the `watsonx.ai` limits for specific instance IDs
 title: 'Watsonx.ai CR Content for Week of <Month Day Year>'
-labels: Watsonx.ai-CR
+labels: watsonx.ai-CR
 assignees: tamdavid
 ---
 
