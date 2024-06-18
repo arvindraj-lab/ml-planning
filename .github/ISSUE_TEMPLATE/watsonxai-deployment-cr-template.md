@@ -79,4 +79,4 @@ For microservices to recover re-deploy previous version https://github.ibm.com/c
 
 ## VA Scan Results
 
-Jenkins VA Scan: http://jenkins-wml-server1.fyre.ibm.com:8080/job/WML-Image-Vulnerability-Check-CR/
+Jenkins VA Scan: https://jenkins-wml-server.ml.test.cloud.ibm.com:8443/job/DevOps-Jobs/job/WatsonX-Image-Vulnerability-Check-CR/
