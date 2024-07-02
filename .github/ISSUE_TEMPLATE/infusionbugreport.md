@@ -5,7 +5,7 @@ title: 'watsonx.ai bug report for infusion team: ...'
 labels: infusion
 assignees: otucker,Demi-Ajayi,tamdavid
 
-
+---
 ### Product Name:
 
 ### Product Intake form (onboarding repo)[https://github.ibm.com/NGP-TWC/watsonx-ai-onboarding]: 
